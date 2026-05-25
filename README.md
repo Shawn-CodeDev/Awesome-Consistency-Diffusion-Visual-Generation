@@ -7,7 +7,7 @@
 This repository accompanies the survey:
 
 > **Consistency in Diffusion-Based Visual Generation: A Survey**  
-> Song Yan, Wei Zhai, Ruixuan Li, Zhangping Yang, Chenfeng Wang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Min Li, Zheng-Jun Zha.
+> Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, Zheng-Jun Zha.
 
 The repository provides a curated and structured resource map for **consistency problems in diffusion-based visual generation**. Instead of organizing the literature only by task names such as text-to-image generation, editing, personalization, video generation, or 3D generation, this project organizes methods and resources by the **agreement relation** they try to enforce.
 
@@ -209,7 +209,7 @@ If this survey or resource list is useful, please cite:
 ```bibtex
 @misc{consistency_diffusion_survey,
   title  = {Consistency in Diffusion-Based Visual Generation: A Survey},
-  author = {Yan, Song and Zhai, Wei and Li, Ruixuan and Yang, Zhangping and Wang, Chenfeng and Cai, Yancheng and Zhang, Tao and Wang, Ling and Lan, Yunwei and He, Yujie and Li, Min and Zha, Zheng-Jun},
+  author = {Yan, Song and Zhai, Wei and Wang, Chenfeng and Li, Ruixuan and Yang, Zhangping and Cai, Yancheng and Zhang, Tao and Wang, Ling and Lan, Yunwei and He, Yujie and Cao, Yang and Li, Min and Zha, Zheng-Jun},
   year   = {2026},
   note   = {Manuscript}
 }
