@@ -1,0 +1,6 @@
+SurveyScope,BibTeXKeys,Focus,External,Internal,Normative,CrossRelation
+Text-to-image and controllable generation,t2i_diffusion_survey; controllable_t2i_survey; t2i_quality_metrics_survey,"Prompt following, conditioning, and quality evaluation",H,L,M,Limited
+Editing and personalization,diffusion_editing_survey; pcs_survey; personalized_generation_survey,"Edit preservation, subject binding, and user-adaptive generation",H,H,M,Limited
+Video and long-form generation,video_diffusion_survey; video_diffusion_acm_survey; long_video_storytelling_survey,"Temporal coherence, video synthesis, and narrative continuity",M,H,M,Partial
+Alignment and safety,alignment_survey; trustworthy_t2i_survey; attacks_defenses_diffusion_survey,"Preference, safety, robustness, and trustworthy generation",M,L,H,Partial
+"3D, 4D, and physical generation",diffusion_3d_survey; advances_4d_survey; physical_ai_survey,"Geometry, dynamics, and physical plausibility",M,H,H,Partial
