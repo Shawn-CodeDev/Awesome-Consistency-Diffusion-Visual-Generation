@@ -1,0 +1,41 @@
+Section,Resource,BibTeXKey,CodeURL,Type,Modality,Primary,P/C,S/E,ID,V/T,N/S,P/W,DiagnosticUseAndBlindSpot
+External,TIFA,tifa,https://github.com/Yushi-Hu/tifa,Eval.,T2I,Ext.,H,L,L,L,L,L,"QA-based prompt faithfulness; weak on identity, temporal, and world consistency."
+External,GenEval,geneval,https://github.com/djghosh13/geneval,Bench.,T2I,Ext.,H,M,L,L,L,L,"Object-focused prompt benchmark; covers omission, binding, and counting, not editing or temporal consistency."
+External,T2I-CompBench,t2icompbench,https://github.com/Karine-Huang/T2I-CompBench,Bench.,T2I,Ext.,H,M,L,L,L,L,Broad compositional benchmark for relations and attributes; weaker on grounded control and preservation-based editing.
+External,GenEval 2,geneval2,https://github.com/facebookresearch/GenEval2,Bench.,T2I,Ext.,H,M,L,L,L,L,Harder prompt-following resource addressing benchmark drift; still centered on image-level prompt faithfulness.
+External,HRS-Bench,hrsbench,https://github.com/eslambakr/HRS_benchmark,Bench.,T2I,Ext.,H,M,L,L,M,L,"Holistic T2I benchmark covering accuracy, robustness, generalization, fairness, and bias; less specific to edit preservation."
+External,DPG-Bench,dpgbench,https://github.com/TencentQQGYLab/ELLA,Bench.,T2I,Ext.,H,M,L,L,L,L,Dense-prompt benchmark for long and complex prompt following; not designed for editing or temporal consistency.
+External,GenAI-Bench,genaibench,https://github.com/linzhiqiu/t2v_metrics,Bench./Eval.,T2I/T2V,Ext.,H,M,L,M,L,L,"Compositional text-to-visual benchmark with VQA-style scoring; limited for identity, safety, and physical-state persistence."
+External,EditBench,editbench,,Bench.,Edit,Ext.,M,H,L,L,L,L,Text-guided image inpainting benchmark; directly probes instruction adherence and preservation in masked editing.
+External,MagicBrush,magicbrush,https://github.com/OSU-NLP-Group/MagicBrush,Dataset/Bench.,Edit,Ext.,M,H,L,L,L,L,"Instruction-guided editing dataset with single-turn, multi-turn, mask-provided, and mask-free settings."
+External,ConceptBed,intpers_conceptbed_evaluating_concept_learning_abilities_of_text_to,https://github.com/ConceptBed/evaluations,Bench.,T2I,Ext./Int.,M,M,M,L,L,L,Concept-learning and binding benchmark; bridges prompt-level consistency and reusable subject concepts.
+Internal,MVG-Bench,mvgbench,https://github.com/xiexh20/MVGBench,Bench.,T2I/3D,Int.,L,M,M,H,L,L,Dedicated multi-view generation benchmark; emphasizes cross-view compatibility.
+Internal,MET3R,met3r,https://github.com/mohammadasim98/met3r,Eval.,T2I/3D,Int.,L,L,M,H,L,L,Multi-view consistency metric; strong for geometry-aware agreement.
+Internal,VBench,vbench,https://github.com/Vchitect/VBench,Bench./Eval.,T2V,Int./Norm.,M,L,M,H,L,M,"Video-generation benchmark with subject consistency, background consistency, motion smoothness, and temporal flickering."
+Internal,Video-Bench,videobench_human_aligned,https://github.com/Video-Bench/Video-Bench,Bench.,T2V/I2V,Int./Norm.,M,L,M,H,M,M,"Human-aligned video-generation benchmark; useful for action consistency, temporal consistency, and motion quality."
+Internal,EvalCrafter,evalcrafter,https://github.com/evalcrafter/EvalCrafter,Eval.,T2V,Int./Ext.,M,L,L,H,L,L,"Unified evaluation toolkit for generated videos using visual, content, motion, and text-video alignment metrics."
+Internal,FETV,fetv,https://github.com/llyx97/FETV,Bench.,T2V,Ext./Int.,H,L,L,M,L,L,"Fine-grained open-domain T2V benchmark; useful for prompt complexity, attributes, and temporal quality."
+Internal,ViStoryBench,vistorybench,https://github.com/ViStoryBench/ViStoryBench,Bench.,Story/T2I,Int.,M,L,H,H,L,L,"Story-visualization benchmark focusing on character consistency, narrative coherence, and stylistic integrity."
+Internal,MeViS,MeViS,https://github.com/henghuiding/MeViS,Dataset,Video,Int.,L,L,L,M,L,L,"Motion-expression segmentation; useful for temporal grounding diagnostics, but not a generative benchmark."
+Internal,MOSE,MOSE,https://github.com/henghuiding/MOSE-api,Dataset,Video,Int.,L,L,L,M,L,L,Video object segmentation resource for difficult scenes; useful for persistence under occlusion and scene change.
+Internal,TAO,dave2020tao,https://github.com/TAO-Dataset/tao,Dataset,Video,Int.,L,L,M,M,L,L,"Large-scale tracking benchmark; useful for long-range identity diagnostics, but not diffusion-specific."
+Internal,VSPW,miao2021vspw,https://github.com/VSPW-dataset/VSPW_code,Dataset,Video,Int.,L,L,L,M,L,L,Video scene parsing resource; useful for scene-state continuity diagnostics.
+Internal,nuScenes,caesar2020nuscenes,https://github.com/nutonomy/nuscenes-devkit,Dataset,Video/3D,Int.,L,M,L,M,L,M,"Multimodal driving dataset; useful for geometry and dynamics diagnostics, but not a standalone generative benchmark."
+Normative,Pick-a-Pic,pickapic,https://github.com/yuvalkirstain/PickScore,Dataset,T2I,Norm.,M,L,L,L,H,L,"Pairwise preference data; strong for preference learning, indirect for compositional faithfulness."
+Normative,ImageReward,imagereward,https://github.com/zai-org/ImageReward,Eval.,T2I,Norm.,M,L,L,L,H,L,"Learned preference reward; useful for ranking and optimization, not task-specific faithfulness."
+Normative,HPS,hps,,Eval.,T2I,Norm.,M,L,L,L,H,L,Human preference score; broad but coarse-grained.
+Normative,HPSv2,hpsv2,https://github.com/tgxs002/HPSv2,Bench.,T2I,Norm.,M,L,L,L,H,L,Refined human-preference benchmark with stronger evaluation coverage than HPS.
+Normative,HPSv3,hpsv3,https://github.com/MizzenAI/HPSv3,Bench.,T2I,Norm.,M,L,L,L,H,L,Wide-spectrum human preference benchmark; not designed for safety or world-consistency claims.
+Normative,VisionReward,visionreward,https://github.com/zai-org/VisionReward,Eval.,T2I/T2V,Norm.,M,L,L,M,H,L,"Multi-dimensional image/video preference evaluator; broader than image-only rewards, but preference-centered."
+Normative,Six-CD,normsafe_six_cd_benchmarking_concept_removals_for_benign_text,https://github.com/Artanisax/Six-CD,Bench.,T2I,Norm.,L,L,L,L,H,L,Safety benchmark that jointly measures concept suppression and benign retention.
+Normative,PhyBench,phybench,https://github.com/OpenGVLab/PhyBench,Bench.,T2I,Norm.,L,L,L,L,M,H,Physical commonsense benchmark for text-to-image generation; useful for static world plausibility.
+Normative,VideoPhy,videophy,https://github.com/Hritikbansal/videophy,Bench.,T2V,Norm.,L,L,L,M,M,H,Physical commonsense evaluation for generated videos.
+Normative,PhyCoBench,phycobench,https://github.com/Jeckinchen/PhyCoBench,Bench.,T2V,Norm.,L,L,L,M,L,H,Optical-flow-guided physical coherence benchmark; focused on motion plausibility.
+Normative,PhyGenBench,phygenbench,https://github.com/OpenGVLab/PhyGenBench,Bench.,T2V,Norm.,L,L,L,M,L,H,Physical commonsense benchmark for video generation; emphasizes world simulation quality.
+Normative,VideoPhy-2,videophy2,https://videophy2.github.io/,Bench.,T2V,Norm.,L,L,L,M,M,H,Action-centric physical commonsense benchmark; strong for action consequences and physical interaction.
+Normative,T2VPhysBench,t2vphysbench,,Bench.,T2V,Norm.,L,L,L,M,L,H,First-principles physical consistency benchmark for text-to-video.
+Normative,T2VWorldBench,t2vworldbench,,Bench.,T2V,Norm.,L,L,L,M,M,H,World-knowledge benchmark covering commonsense and causal plausibility beyond local motion realism.
+Normative,Physics-IQ,physics_iq_wacv2026,https://github.com/google-deepmind/physics-IQ-benchmark,Bench.,T2V,Norm.,L,L,L,M,L,H,Probes whether video generators internalize physical principles; diagnostic rather than end-to-end preference metric.
+Normative,PhyWorldBench,phyworldbench,https://github.com/g-jing/phy-world-bench,Bench.,T2V,Norm.,L,L,L,M,M,H,Comprehensive physical realism benchmark for text-to-video.
+Normative,VideoVerse,videoverse_worldbench,https://github.com/Zeqing-Wang/VideoVerse,Bench.,T2V,Norm.,L,L,L,M,M,H,World-model-oriented T2V evaluation.
+Normative,PhyEduVideo,videophy_edu,https://github.com/meghamariamkm/PhyEduVideo,Dataset/Bench.,T2V,Norm.,L,L,L,M,L,H,Physics-education-oriented benchmark exposing explanatory and world-consistency gaps.
