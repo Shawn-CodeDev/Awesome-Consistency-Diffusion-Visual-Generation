@@ -1,0 +1,35 @@
+name: Add or correct a resource
+description: Suggest a method, benchmark, dataset, evaluator, survey, or diagnostic protocol.
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper or resource title
+    validations:
+      required: true
+  - type: input
+    id: bibtex
+    attributes:
+      label: Suggested BibTeX key
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Primary consistency relation
+      options:
+        - External
+        - Internal
+        - Normative
+        - Cross-relation
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic_use
+    attributes:
+      label: Diagnostic use and blind spot
+      description: Explain what the resource measures and what it misses.
+    validations:
+      required: true
