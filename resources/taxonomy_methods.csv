@@ -1,0 +1,10 @@
+Relation,Subsection,RepresentativeMethodsResources
+External,Prompt and compositional consistency,Attend-and-Excite; BoxDiff; Composer; Make-It-Count; CountDiffusion; TIFA; GenEval; T2I-CompBench
+External,Grounded and structural consistency,ControlNet; GLIGEN; T2I-Adapter; IP-Adapter; AnyDoor; FreeDoM; HumanSD; SemanticControl
+External,Edit consistency,Prompt-to-Prompt; DiffEdit; InstructPix2Pix; InstructDiffusion; Null-Text Inversion; MagicBrush; EditBench
+Internal,Subject and identity consistency,DreamBooth; Custom Diffusion; BLIP-Diffusion; PhotoMaker; InstantID; ConsiStory; StoryDiffusion
+Internal,Multi-view and 3D consistency,Zero-1-to-3; SyncDreamer; MVDream; Wonder3D; ViewDiff; EscherNet; MVG-Bench; MET3R
+Internal,Temporal and narrative consistency,AnimateDiff; FateZero; Video-P2P; StoryDiffusion; TaleCrafter; MovieDreamer; VBench; ViStoryBench
+Normative,Preference and aesthetics,ImageReward; HPS; MPS; SPO; DSPO; RankDPO; Diffusion-DPO
+Normative,Safety and values,Safe Latent Diffusion; Unified Concept Editing; Erasing Concepts; Six-CD
+Normative,"Physical, commonsense, and causal consistency",PhyBench; VideoPhy; PhyGenBench; VideoPhy-2; T2VWorldBench; Physics-IQ; PhyWorldBench
