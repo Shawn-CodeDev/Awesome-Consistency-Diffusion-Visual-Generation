@@ -1,20 +1,35 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" height="120" width="1" />
-  <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="100" alt="University of Science and Technology of China" /></a>
+  <img src="docs/校徽_ustc校徽%20科大蓝.svg" height="100" align="middle" alt="University of Science and Technology of China" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.tsinghua.edu.cn/en/"><img src="docs/清华大学-logo.svg" height="88" alt="Tsinghua University" /></a>
+  <img src="docs/清华大学-logo.svg" height="88" align="middle" alt="Tsinghua University" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://english.hust.edu.cn/"><img src="docs/华中科技大学-logo.svg" height="82" alt="Huazhong University of Science and Technology" /></a>
+  <img src="docs/华中科技大学-logo.svg" height="82" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="120" alt="University of Cambridge" /></a>
+  <img src="docs/University_of_Cambridge-Logo.wine.svg" height="120" align="middle" alt="University of Cambridge" />
 </p>
 
 <p align="center">
-  <a href="https://www.lixiang.com/en"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" alt="Li Auto" /></a>
+  <a href="https://en.ustc.edu.cn/">USTC</a>
+  &nbsp;|&nbsp;
+  <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>
+  &nbsp;|&nbsp;
+  <a href="https://english.hust.edu.cn/">HUST</a>
+  &nbsp;|&nbsp;
+  <a href="https://www.cam.ac.uk/">University of Cambridge</a>
+</p>
+
+<p align="center">
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" align="middle" alt="Li Auto" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.bytedance.com/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" alt="ByteDance" /></a>
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
+</p>
+
+<p align="center">
+  <a href="https://www.lixiang.com/en">Li Auto</a>
+  &nbsp;|&nbsp;
+  <a href="https://www.bytedance.com/">ByteDance</a>
 </p>
 
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
