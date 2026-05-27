@@ -1,0 +1,25 @@
+name: Star History
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  add-star-history:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add star history section
+        run: |
+          if ! grep -q '^## Star history' README.md; then
+            printf '\n## Star history\n\n<p align="center">\n  <a href="https://star-history.com/#Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&Date">\n    <img src="https://api.star-history.com/svg?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=Date" alt="Star History Chart" />\n  </a>\n</p>\n' >> README.md
+          fi
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m 'Add star history chart to README' || exit 0
+          git push
