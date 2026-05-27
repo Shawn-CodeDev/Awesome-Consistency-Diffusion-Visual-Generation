@@ -3,7 +3,7 @@
 <p align="center">
   <img src="docs/USTC.png" height="110" align="middle" alt="University of Science and Technology of China" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/清华大学-logo.svg" height="110" align="middle" alt="Tsinghua University" />
+  <img src="docs/清华大学-logo.svg" height="120" align="middle" alt="Tsinghua University" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/HUST.png" height="110" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
