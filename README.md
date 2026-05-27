@@ -1,32 +1,21 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" valign="middle" style="border: none; padding: 0 14px;">
-      <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="100" alt="University of Science and Technology of China" /></a>
-    </td>
-    <td align="center" valign="middle" style="border: none; padding: 0 14px;">
-      <a href="https://www.tsinghua.edu.cn/en/"><img src="docs/清华大学-logo.svg" height="88" alt="Tsinghua University" /></a>
-    </td>
-    <td align="center" valign="middle" style="border: none; padding: 0 14px;">
-      <a href="https://english.hust.edu.cn/"><img src="docs/华中科技大学-logo.svg" height="82" alt="Huazhong University of Science and Technology" /></a>
-    </td>
-    <td align="center" valign="middle" style="border: none; padding: 0 14px;">
-      <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="120" alt="University of Cambridge" /></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" height="120" width="1" />
+  <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="100" alt="University of Science and Technology of China" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.tsinghua.edu.cn/en/"><img src="docs/清华大学-logo.svg" height="88" alt="Tsinghua University" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://english.hust.edu.cn/"><img src="docs/华中科技大学-logo.svg" height="82" alt="Huazhong University of Science and Technology" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="120" alt="University of Cambridge" /></a>
+</p>
 
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" valign="middle" style="border: none; padding: 0 22px;">
-      <a href="https://www.lixiang.com/en"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" alt="Li Auto" /></a>
-    </td>
-    <td align="center" valign="middle" style="border: none; padding: 0 22px;">
-      <a href="https://www.bytedance.com/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" alt="ByteDance" /></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://www.lixiang.com/en"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" alt="Li Auto" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.bytedance.com/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" alt="ByteDance" /></a>
+</p>
 
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
