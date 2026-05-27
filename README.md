@@ -1,5 +1,19 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
+<p align="center">
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo%20of%20University%20of%20Science%20and%20Technology%20of%20China.svg" height="52" alt="University of Science and Technology of China" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tsinghua%20University%20logo%20and%20wordmark%20in%20Chinese%20and%20English%20characters.svg" height="52" alt="Tsinghua University" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Huazhong%20University%20of%20Science%20and%20Technology%20logo.png" height="52" alt="Huazhong University of Science and Technology" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/University%20of%20Cambridge%20logo.svg" height="52" alt="University of Cambridge" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="42" alt="Li Auto" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="42" alt="ByteDance" />
+</p>
+
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
