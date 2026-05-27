@@ -11,25 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://en.ustc.edu.cn/">USTC</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>
-  &nbsp;|&nbsp;
-  <a href="https://english.hust.edu.cn/">HUST</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.cam.ac.uk/">University of Cambridge</a>
-</p>
-
-<p align="center">
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" align="middle" alt="Li Auto" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
-</p>
-
-<p align="center">
-  <a href="https://www.lixiang.com/en">Li Auto</a>
-  &nbsp;|&nbsp;
-  <a href="https://www.bytedance.com/">ByteDance</a>
 </p>
 
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
