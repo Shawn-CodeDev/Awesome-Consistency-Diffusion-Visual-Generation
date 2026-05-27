@@ -5,7 +5,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/清华大学-logo.svg" height="100" align="middle" alt="Tsinghua University" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/华中科技大学-logo.svg" height="100" align="middle" alt="Huazhong University of Science and Technology" />
+  <img src="docs/华中科技大学-logo.svg" height="150" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/logo.png" height="110" align="middle" alt="University of Cambridge" />
 </p>
