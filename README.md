@@ -1,13 +1,13 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
 <p align="center">
-  <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="88" alt="University of Science and Technology of China" /></a>
+  <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="92" alt="University of Science and Technology of China" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.tsinghua.edu.cn/en/"><img src="docs/清华大学-logo.svg" height="88" alt="Tsinghua University" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://english.hust.edu.cn/"><img src="docs/华中科技大学-logo.svg" height="82" alt="Huazhong University of Science and Technology" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="88" alt="University of Cambridge" /></a>
+  <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="95" alt="University of Cambridge" /></a>
 </p>
 
 <p align="center">
