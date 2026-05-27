@@ -1,6 +1,9 @@
 name: Star History
 
 on:
+  push:
+    paths:
+      - .github/workflows/star-history.yml
   workflow_dispatch:
 
 permissions:
