@@ -7,7 +7,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/华中科技大学-logo.svg" height="82" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/logo.png" height="200" align="middle" alt="University of Cambridge" />
+  <img src="docs/logo.png" height="110" align="middle" alt="University of Cambridge" />
 </p>
 
 <p align="center">
