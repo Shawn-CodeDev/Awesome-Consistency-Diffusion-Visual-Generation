@@ -3,9 +3,9 @@
 <p align="center">
   <img src="docs/校徽_ustc校徽%20科大蓝.svg" height="100" align="middle" alt="University of Science and Technology of China" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/清华大学-logo.svg" height="88" align="middle" alt="Tsinghua University" />
+  <img src="docs/清华大学-logo.svg" height="100" align="middle" alt="Tsinghua University" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/华中科技大学-logo.svg" height="82" align="middle" alt="Huazhong University of Science and Technology" />
+  <img src="docs/华中科技大学-logo.svg" height="100" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="docs/logo.png" height="110" align="middle" alt="University of Cambridge" />
 </p>
