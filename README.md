@@ -27,23 +27,12 @@ This repository accompanies the survey:
 
 This repository collects papers, methods, benchmarks, datasets, evaluators, and diagnostic resources for **consistency in diffusion-based visual generation**. The main organization follows the survey taxonomy: **External Consistency**, **Internal Consistency**, and **Normative Consistency**.
 
-## Multi-source verification policy
-
-The main README now uses a **multi-source verification rule** rather than DBLP-only metadata. For each formal paper or benchmark, the table should include:
-
-1. **Paper page**: arXiv, CVF OpenAccess, OpenReview, ACM, PMLR, or another stable official paper page.
-2. **Code / Project**: official GitHub repository or official project page, when one can be verified. If no official source is confirmed, the field is `--`.
-3. **DBLP**: DBLP record URL when available. If DBLP only has a CoRR/arXiv record, the venue/source field should say `CoRR/arXiv`, not an invented conference venue.
-
-Broad topics, metric families, and search starting points are not mixed into the verified paper tables. They should be placed in a separate candidate file until they can be associated with a specific paper and stable sources.
-
 ## Table of contents
 
 - [Taxonomy](#taxonomy)
 - [External consistency](#external-consistency)
 - [Internal consistency](#internal-consistency)
 - [Normative consistency](#normative-consistency)
-- [Candidate and maintenance policy](#candidate-and-maintenance-policy)
 - [Citation](#citation)
 
 ## Taxonomy
@@ -189,25 +178,6 @@ Normative consistency asks whether generated content satisfies evaluative princi
 | PhyGenBench: Towards World Simulator | CoRR/arXiv 2024 | [arXiv](https://arxiv.org/abs/2407.08024) | [GitHub](https://github.com/OpenGVLab/PhyGenBench) | [DBLP](https://dblp.org/rec/journals/corr/abs-2407-08024.html) | Benchmarking physical-law consistency in generated videos. |
 
 ---
-
-## Candidate and maintenance policy
-
-The previous README contained many useful but unverified or non-bibliographic entries, including broad topics such as prompt expansion, verifier-guided generation, world-consistent video diffusion, and metric families. These are intentionally not mixed into the verified main tables.
-
-To add a new item to the main README:
-
-1. Search arXiv / CVF OpenAccess / OpenReview / ACM / PMLR for a stable paper page.
-2. Search GitHub or the official project page for code or demos; do not use unofficial reimplementations unless explicitly marked as such.
-3. Search DBLP and add the DBLP record URL when available.
-4. Use the venue/source supported by the verified sources. If the only bibliographic record is CoRR/arXiv, write `CoRR/arXiv YEAR`.
-5. Add a one-sentence explanation of the consistency issue it addresses.
-6. Run:
-
-```bash
-python scripts/verify_dblp_links.py --readme README.md --out resources/dblp_verification.csv
-```
-
-If a paper is important but one of the required sources is missing, keep it in a separate candidate file until it can be verified or mark the missing source as `--` with a clear reason.
 
 ## Citation
 
