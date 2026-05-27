@@ -1,17 +1,17 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
 <p align="center">
-  <img src="docs/USTC.png" height="110" align="middle" alt="University of Science and Technology of China" />
+  <img src="docs/USTC.png" height="120" align="middle" alt="University of Science and Technology of China" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/清华大学-logo.svg" height="120" align="middle" alt="Tsinghua University" />
+  <img src="docs/THU.png" height="120" align="middle" alt="Tsinghua University" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/HUST.png" height="110" align="middle" alt="Huazhong University of Science and Technology" />
+  <img src="docs/HUST.png" height="120" align="middle" alt="Huazhong University of Science and Technology" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/logo.png" height="110" align="middle" alt="University of Cambridge" />
+  <img src="docs/logo.png" height="120" align="middle" alt="University of Cambridge" />
 </p>
 
 <p align="center">
-  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="40" align="middle" alt="Li Auto" />
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="50" align="middle" alt="Li Auto" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
 </p>
