@@ -1,11 +1,18 @@
 # Awesome Consistency in Diffusion-Based Visual Generation
 
-[![USTC](https://img.shields.io/badge/USTC-University%20of%20Science%20and%20Technology%20of%20China-005BAC?style=for-the-badge)](https://en.ustc.edu.cn/)
-[![Tsinghua](https://img.shields.io/badge/Tsinghua-University-7A1FA2?style=for-the-badge)](https://www.tsinghua.edu.cn/en/)
-[![HUST](https://img.shields.io/badge/HUST-Huazhong%20University%20of%20Science%20and%20Technology-0055A4?style=for-the-badge)](https://english.hust.edu.cn/)
-[![Cambridge](https://img.shields.io/badge/Cambridge-University%20of%20Cambridge-A3C1AD?style=for-the-badge)](https://www.cam.ac.uk/)
-[![Li Auto](https://img.shields.io/badge/Li%20Auto-Industry%20Partner-111111?style=for-the-badge)](https://www.lixiang.com/en)
-[![ByteDance](https://img.shields.io/badge/ByteDance-Industry%20Partner-111111?style=for-the-badge)](https://www.bytedance.com/)
+<p align="center">
+  <a href="https://en.ustc.edu.cn/"><img src="docs/校徽_ustc校徽%20科大蓝.svg" height="56" alt="University of Science and Technology of China" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.tsinghua.edu.cn/en/"><img src="docs/清华大学-logo.svg" height="56" alt="Tsinghua University" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://english.hust.edu.cn/"><img src="docs/华中科技大学-logo.svg" height="52" alt="Huazhong University of Science and Technology" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.cam.ac.uk/"><img src="docs/University_of_Cambridge-Logo.wine.svg" height="56" alt="University of Cambridge" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.lixiang.com/en"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="38" alt="Li Auto" /></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.bytedance.com/"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="38" alt="ByteDance" /></a>
+</p>
 
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -17,8 +24,6 @@ This repository accompanies the survey:
 > Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, Zheng-Jun Zha.
 
 This repository collects papers, methods, benchmarks, datasets, evaluators, and diagnostic resources for **consistency in diffusion-based visual generation**. The main organization follows the survey taxonomy: **External Consistency**, **Internal Consistency**, and **Normative Consistency**. Within each relation, entries are grouped into **Methods**, **Benchmarks & Evaluators**, and **Datasets & Data Resources**.
-
-Note: the top affiliation strip now uses stable Shields SVG badges instead of hot-linked logo files, because remote institutional logo image URLs often break in GitHub Markdown rendering.
 
 ## Table of contents
 
