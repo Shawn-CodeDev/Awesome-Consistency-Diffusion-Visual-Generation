@@ -501,6 +501,6 @@ This repository is released under the [MIT License](LICENSE).
 
 <p align="center">
   <a href="https://star-history.com/#Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&Date">
-    <img src="https://api.star-history.com/svg?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=Time" alt="Star History Chart" />
+    <img src="https://api.star-history.com/svg?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline" alt="Star History Chart" />
   </a>
 </p>
