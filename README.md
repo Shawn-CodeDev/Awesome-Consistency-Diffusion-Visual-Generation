@@ -497,10 +497,12 @@ If this survey or resource list is useful, please cite:
 
 This repository is released under the [MIT License](LICENSE).
 
-## Star history
+## Star History
 
-<p align="center">
-  <a href="https://star-history.com/#Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&Date">
-    <img src="https://api.star-history.com/svg?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline" alt="Star History Chart" />
-  </a>
-</p>
+<a href="https://www.star-history.com/?repos=Shawn-CodeDev%2FAwesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left" />
+ </picture>
+</a>
