@@ -497,12 +497,4 @@ If this survey or resource list is useful, please cite:
 
 This repository is released under the [MIT License](LICENSE).
 
-## Star History
 
-<a href="https://www.star-history.com/?repos=Shawn-CodeDev%2FAwesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation&type=timeline&legend=top-left" />
- </picture>
-</a>
