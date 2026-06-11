@@ -23,7 +23,7 @@
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
-  <a href="https://doi.org/10.20944/preprints202606.0870.v1">
+  <a href="https://www.preprints.org/manuscript/202606.0870/v1">
     <img src="https://img.shields.io/badge/arXiv-preprint-b31b1b.svg" alt="Preprint">
   </a>
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers">
