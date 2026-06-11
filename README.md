@@ -18,7 +18,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![arXiv-style Preprint](https://img.shields.io/badge/arXiv--style-preprint-b31b1b.svg)](https://doi.org/10.20944/preprints202606.0870.v1)
+[![Preprint](https://img.shields.io/badge/arXiv--style-preprint-b31b1b.svg)](https://doi.org/10.20944/preprints202606.0870.v1)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation)
 [![GitHub stars](https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=social)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers)
 
