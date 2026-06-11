@@ -68,7 +68,7 @@ The survey argues that these failures are easier to reason about when grouped by
 
 ## Three consistency relations
 
-[![Three consistency relations in diffusion-based generation](paper/Cons.pdf)](paper/Cons.pdf)
+[![Three consistency relations in diffusion-based generation](paper/Cons_01.png)](paper/Cons_01.png)
 
 **Figure 1. Three consistency relations in diffusion-based generation.** External consistency measures agreement with prompts, layouts, references, or editing instructions. Internal consistency measures compatibility among generated parts, views, frames, or instances. Normative consistency measures agreement with human-centered criteria such as preference, safety, and value constraints, as well as world-centered criteria such as physical, commonsense, or causal plausibility.
 
@@ -80,7 +80,7 @@ The survey argues that these failures are easier to reason about when grouped by
 
 ## Evaluation view
 
-[![Evaluation protocol for consistency claims](paper/Eval.pdf)](paper/Eval.pdf)
+[![Evaluation protocol for consistency claims](paper/Eval_01.png)](paper/Eval_01.png)
 
 **Figure 2. Evaluation protocol for consistency claims.** A consistency evaluation should make explicit what is being observed, what the output should agree with, which evidence source supports the judgment, and what form the evaluation output takes. Observation units may include a single image, an edited pair, an identity-conditioned set, a multi-view bundle, or a video/story sequence. Evidence sources may include MLLM/VQA checks, similarity signals, set- or sequence-level diagnostics, learned evaluators, human preference studies, and stress-test protocols.
 
@@ -88,7 +88,7 @@ This view separates a method's stated consistency goal from the evidence used to
 
 ## Optimization view
 
-[![Optimization loci for enforcing consistency](paper/Optimize.pdf)](paper/Optimize.pdf)
+[![Optimization loci for enforcing consistency](paper/Optimize_01.png)](paper/Optimize_01.png)
 
 **Figure 3. Optimization loci for enforcing consistency.** Consistency can be strengthened before sampling, at the condition interface, during denoising, across coupled outputs, or after generation. These loci lead to different trade-offs among persistence, controllability, realism, diversity, memory cost, and modularity.
 
