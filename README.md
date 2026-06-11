@@ -19,23 +19,25 @@
 [![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Preprint](https://img.shields.io/badge/Preprint-10.20944%2Fpreprints202606.0870.v1-blue)](https://doi.org/10.20944/preprints202606.0870.v1)
 
 This repository accompanies the survey:
 
 > **Consistency in Diffusion-Based Visual Generation: A Survey**  
-> Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, Zheng-Jun Zha.
+> Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, Zheng-Jun Zha.  
+> Preprints, 2026. DOI: [10.20944/preprints202606.0870.v1](https://doi.org/10.20944/preprints202606.0870.v1).  
+> Paper: [https://www.preprints.org/manuscript/202606.0870/v1](https://www.preprints.org/manuscript/202606.0870/v1)
 
-This repository collects papers, methods, benchmarks, datasets, evaluators, and diagnostic resources for **consistency in diffusion-based visual generation**. The main organization follows the survey taxonomy: **External Consistency**, **Internal Consistency**, and **Normative Consistency**. Within each relation, entries are grouped into **Methods**, **Benchmarks & Evaluators**, and **Datasets & Data Resources**.
-
-Each entry follows this format:
-
-> **Title** *(venue/year or source)* — short explanation of what consistency issue it helps study.
-
-For very recent or not-yet-proceedings papers, the venue is marked as **arXiv / project / venue TBD** rather than guessed.
+This repository provides a curated companion resource for the survey. It collects representative papers, methods, benchmarks, datasets, evaluators, and diagnostic resources related to **consistency in diffusion-based visual generation**. Rather than organizing the literature only by task or modality, the repository follows the survey's central question: **what should a generated visual output agree with?**
 
 ## Table of contents
 
-- [Taxonomy](#taxonomy)
+- [Paper overview](#paper-overview)
+- [Why consistency matters](#why-consistency-matters)
+- [Three consistency relations](#three-consistency-relations)
+- [Evaluation view](#evaluation-view)
+- [Optimization view](#optimization-view)
+- [Repository organization](#repository-organization)
 - [External consistency](#external-consistency)
 - [Internal consistency](#internal-consistency)
 - [Normative consistency](#normative-consistency)
@@ -44,13 +46,67 @@ For very recent or not-yet-proceedings papers, the venue is marked as **arXiv / 
 - [Contribution guide](#contribution-guide)
 - [Citation](#citation)
 
-## Taxonomy
+## Paper overview
+
+Diffusion models have become a standard foundation for visual generation, including text-to-image synthesis, image editing, personalization, video generation, and 3D-aware content creation. As these models are deployed in increasingly structured settings, visual fidelity alone is no longer sufficient. A generated result may look plausible while still omitting prompt details, breaking object-attribute relations, losing identity across instances, drifting over time, disagreeing across viewpoints, or violating human preference, safety, commonsense, and physical-plausibility requirements.
+
+The survey treats these problems as instances of a broader requirement: **consistency**. In this view, consistency is not a single metric or task-specific property. It is a family of agreement relations between generated content and a target of agreement. The target may be external to the sample, internal to a set or sequence of generated outputs, or normative with respect to evaluative criteria. This relation-based view makes it possible to compare method families, evaluation protocols, and trade-offs across task boundaries.
+
+The paper makes three organizing moves:
+
+1. **Relation-based taxonomy.** The survey distinguishes external, internal, and normative consistency according to the object of agreement.
+2. **Evaluation protocol abstraction.** Consistency claims are analyzed through observation units, agreement targets, evidence sources, and evaluation outputs.
+3. **Optimization-locus analysis.** Methods are compared according to where they impose consistency: before sampling, at the condition interface, during denoising, across coupled outputs, or after generation.
+
+This repository operationalizes that structure as a maintainable resource list. The long method and benchmark sections below are intended as a navigable literature map rather than a replacement for the full survey discussion.
+
+## Why consistency matters
+
+A visually high-quality diffusion output can still be inconsistent. Typical examples include prompt omissions in text-to-image generation, attribute binding errors in compositional prompts, over-editing in image editing, subject identity drift in personalization, temporal flicker in video generation, inconsistent geometry in multi-view generation, unsafe outputs, and physically implausible action consequences.
+
+The survey argues that these failures are easier to reason about when grouped by their agreement target instead of by surface task. For example, prompt following, layout control, and instruction editing are all forms of agreement with an external specification. Identity persistence, multi-view coherence, and video continuity are forms of agreement among generated states. Preference alignment, safety, fairness, and physical plausibility require agreement with normative or world-level criteria.
+
+## Three consistency relations
+
+[![Three consistency relations in diffusion-based generation](paper/Cons.pdf)](paper/Cons.pdf)
+
+**Figure 1. Three consistency relations in diffusion-based generation.** External consistency measures agreement with prompts, layouts, references, or editing instructions. Internal consistency measures compatibility among generated parts, views, frames, or instances. Normative consistency measures agreement with human-centered criteria such as preference, safety, and value constraints, as well as world-centered criteria such as physical, commonsense, or causal plausibility.
 
 | Relation | Agreement target | Typical failures | Typical settings |
 |---|---|---|---|
-| **External consistency** | Agreement with prompts, references, controls, masks, layouts, poses, or edit instructions | prompt omission, attribute binding error, counting error, control mismatch, over-editing | text-to-image, structural control, instruction editing, inpainting, virtual try-on, typography |
-| **Internal consistency** | Agreement among generated subjects, views, frames, shots, or story states | identity drift, view inconsistency, flicker, state forgetting, narrative discontinuity | personalization, multi-view/3D generation, video generation, story visualization |
-| **Normative consistency** | Agreement with preference, safety, fairness, physical plausibility, commonsense, or causal/world-state criteria | low preference, unsafe output, erased benign concepts, physical violation, causal failure | preference optimization, safety editing, concept erasure, physical/world-model evaluation |
+| **External consistency** | Agreement with prompts, references, controls, masks, layouts, poses, or edit instructions | Prompt omission, attribute binding error, counting error, control mismatch, over-editing | Text-to-image generation, structural control, instruction editing, inpainting, virtual try-on, typography |
+| **Internal consistency** | Agreement among generated subjects, views, frames, shots, or story states | Identity drift, view inconsistency, temporal flicker, state forgetting, narrative discontinuity | Personalization, multi-view/3D generation, video generation, story visualization |
+| **Normative consistency** | Agreement with preference, safety, fairness, physical plausibility, commonsense, or causal/world-state criteria | Low preference, unsafe output, erased benign concepts, physical violation, causal failure | Preference optimization, safety editing, concept erasure, physical/world-model evaluation |
+
+## Evaluation view
+
+[![Evaluation protocol for consistency claims](paper/Eval.pdf)](paper/Eval.pdf)
+
+**Figure 2. Evaluation protocol for consistency claims.** A consistency evaluation should make explicit what is being observed, what the output should agree with, which evidence source supports the judgment, and what form the evaluation output takes. Observation units may include a single image, an edited pair, an identity-conditioned set, a multi-view bundle, or a video/story sequence. Evidence sources may include MLLM/VQA checks, similarity signals, set- or sequence-level diagnostics, learned evaluators, human preference studies, and stress-test protocols.
+
+This view separates a method's stated consistency goal from the evidence used to verify it. It also exposes common mismatches, such as evaluating a sequence-level claim with only frame-level metrics, or using broad preference scores to support a more specific claim about prompt faithfulness, identity preservation, or physical plausibility.
+
+## Optimization view
+
+[![Optimization loci for enforcing consistency](paper/Optimize.pdf)](paper/Optimize.pdf)
+
+**Figure 3. Optimization loci for enforcing consistency.** Consistency can be strengthened before sampling, at the condition interface, during denoising, across coupled outputs, or after generation. These loci lead to different trade-offs among persistence, controllability, realism, diversity, memory cost, and modularity.
+
+The survey uses this view to compare broad mechanism families without reducing the discussion to a single algorithmic template. Some methods improve the input or condition before generation; others modify the denoising dynamics, couple multiple outputs, use memory or correspondence mechanisms, apply reward or safety optimization, or filter/verify outputs after generation. The appropriate locus depends on the target relation and on which trade-offs are acceptable for the application.
+
+## Repository organization
+
+The resource list below follows the paper's three-relation taxonomy:
+
+- **External consistency**: agreement with user-specified or task-provided conditions, including prompts, layouts, masks, poses, reference images, and edit instructions.
+- **Internal consistency**: agreement among generated subjects, views, frames, instances, scenes, or story states.
+- **Normative consistency**: agreement with evaluative criteria such as preference, aesthetics, safety, fairness, physical plausibility, commonsense, causal structure, and world-state validity.
+
+Within each relation, entries are grouped into **Methods**, **Benchmarks & Evaluators**, and **Datasets & Data Resources**. Each entry follows this format:
+
+> **Title** *(venue/year or source)* — short explanation of what consistency issue it helps study.
+
+For very recent or not-yet-proceedings papers, the venue is marked as **arXiv / project / venue TBD** rather than guessed.
 
 ---
 
@@ -314,9 +370,9 @@ Internal consistency asks whether generated states remain mutually compatible ac
 - [nuScenes](https://github.com/nutonomy/nuscenes-devkit) *(CVPR 2020)* — Driving dataset useful for dynamic-scene consistency.
 - [KITTI](https://www.cvlibs.net/datasets/kitti/) *(IJRR 2013 / dataset)* — Autonomous-driving visual dataset for geometry and temporal checks.
 - [Waymo Open Dataset](https://waymo.com/open/) *(CVPR 2020 / dataset)* — Large-scale driving data for world and motion consistency.
-- [DAVIS](https://davischallenge.org/) *(CVPR 2016 / dataset)* — Video object segmentation data for temporal preservation.
+- [DAVIS](https://davischallenge.org/) *(CVPR 2016)* — Video object segmentation data for temporal preservation.
 - [YouTube-VOS](https://youtube-vos.org/) *(ECCV 2018 / dataset)* — Large-scale video object segmentation data.
-- [LaSOT](https://cis.temple.edu/lasot/) *(CVPR 2019 / dataset)* — Long-term single-object tracking dataset.
+- [LaSOT](https://cis.temple.edu/lasot/) *(CVPR 2019)* — Long-term single-object tracking dataset.
 - [TrackingNet](https://tracking-net.org/) *(ECCV 2018 / dataset)* — Large-scale object tracking data.
 - [Objaverse](https://objaverse.allenai.org/) *(CVPR 2023 / dataset)* — Large 3D object dataset for view and 3D generation.
 - [Objaverse-XL](https://objaverse.allenai.org/objaverse-xl/) *(NeurIPS 2023 Datasets and Benchmarks)* — Web-scale 3D object data.
@@ -485,11 +541,13 @@ When adding links, prefer official repositories or project pages over unofficial
 If this survey or resource list is useful, please cite:
 
 ```bibtex
-@misc{consistency_diffusion_survey,
-  title  = {Consistency in Diffusion-Based Visual Generation: A Survey},
-  author = {Yan, Song and Zhai, Wei and Wang, Chenfeng and Li, Ruixuan and Yang, Zhangping and Cai, Yancheng and Zhang, Tao and Wang, Ling and Lan, Yunwei and He, Yujie and Cao, Yang and Li, Min and Zha, Zheng-Jun},
-  year   = {2026},
-  note   = {Manuscript}
+@misc{yan2026consistency,
+  title        = {Consistency in Diffusion-Based Visual Generation: A Survey},
+  author       = {Yan, Song and Zhai, Wei and Wang, Chenfeng and Li, Ruixuan and Yang, Zhangping and Cai, Yancheng and Zhang, Tao and Wang, Ling and Lan, Yunwei and He, Yujie and Cao, Yang and Li, Min and Zha, Zheng-Jun},
+  year         = {2026},
+  doi          = {10.20944/preprints202606.0870.v1},
+  url          = {https://www.preprints.org/manuscript/202606.0870/v1},
+  note         = {Preprints}
 }
 ```
 
