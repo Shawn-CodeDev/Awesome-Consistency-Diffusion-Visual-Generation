@@ -541,7 +541,7 @@ When adding links, prefer official repositories or project pages over unofficial
 If this survey or resource list is useful, please cite:
 
 ```bibtex
-@misc{yan2026consistency,
+@article{yan2026consistency,
   title        = {Consistency in Diffusion-Based Visual Generation: A Survey},
   author       = {Yan, Song and Zhai, Wei and Wang, Chenfeng and Li, Ruixuan and Yang, Zhangping and Cai, Yancheng and Zhang, Tao and Wang, Ling and Lan, Yunwei and He, Yujie and Cao, Yang and Li, Min and Zha, Zheng-Jun},
   year         = {2026},
