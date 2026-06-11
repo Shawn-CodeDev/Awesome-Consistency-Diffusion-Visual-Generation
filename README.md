@@ -16,10 +16,11 @@
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
 </p>
 
-[![Validate resource tables](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml/badge.svg)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/actions/workflows/validate-resources.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Preprint](https://img.shields.io/badge/Preprint-10.20944%2Fpreprints202606.0870.v1-blue)](https://doi.org/10.20944/preprints202606.0870.v1)
+[![arXiv-style Preprint](https://img.shields.io/badge/arXiv--style-preprint-b31b1b.svg)](https://doi.org/10.20944/preprints202606.0870.v1)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation)
+[![GitHub stars](https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=social)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers)
 
 This repository accompanies the survey:
 
