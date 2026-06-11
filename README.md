@@ -16,10 +16,20 @@
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Preprint](https://img.shields.io/badge/arXiv--style-preprint-b31b1b.svg)](https://doi.org/10.20944/preprints202606.0870.v1)
-[![GitHub stars](https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=social)](https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers)
+<p align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge.svg" alt="Awesome">
+  </a>
+  <a href="https://doi.org/10.20944/preprints202606.0870.v1">
+    <img src="https://img.shields.io/badge/arXiv-preprint-b31b1b.svg" alt="Preprint">
+  </a>
+  <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers">
+    <img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=social" alt="GitHub stars">
+  </a>
+</p>
 
 This repository accompanies the survey:
 
