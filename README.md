@@ -10,11 +10,11 @@
   <img src="docs/logo.png" height="120" align="middle" alt="University of Cambridge" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Li%20Auto%20English%20logo.svg" height="50" align="middle" alt="Li Auto" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/ByteDance%20logo%20English.svg" height="40" align="middle" alt="ByteDance" />
-</p>
+</p> -->
 
 <p align="center">
   <a href="LICENSE">
