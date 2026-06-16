@@ -2,140 +2,163 @@
 
 <div align="center">
 
-# Awesome Consistency in Diffusion-Based Visual Generation
+<h1>Consistency in Diffusion-Based<br>Visual Generation</h1>
 
-### A curated survey companion for consistency in diffusion-based visual generation
+<p><b>A Survey and Curated Research Collection</b></p>
 
 <p>
-  <img src="docs/USTC.png" height="92" alt="University of Science and Technology of China" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/THU.png" height="92" alt="Tsinghua University" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/HUST.png" height="92" alt="Huazhong University of Science and Technology" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/logo.png" height="92" alt="University of Cambridge" />
+  External Consistency &nbsp;·&nbsp;
+  Internal Consistency &nbsp;·&nbsp;
+  Normative Consistency
 </p>
 
 <p>
-  <a href="https://www.preprints.org/manuscript/202606.0870/v1"><img src="https://img.shields.io/badge/Paper-Preprint-b31b1b?style=flat-square" alt="Paper"></a>
-  <a href="https://doi.org/10.20944/preprints202606.0870.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202606.0870.v1-2f6f9f?style=flat-square" alt="DOI"></a>
+  <a href="https://www.preprints.org/manuscript/202606.0870/v1"><img src="https://img.shields.io/badge/Paper-Preprint-B31B1B?style=flat-square" alt="Paper"></a>
+  <a href="https://doi.org/10.20944/preprints202606.0870.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202606.0870.v1-1F6FEB?style=flat-square" alt="DOI"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2EA44F?style=flat-square" alt="MIT License"></a>
 </p>
 
 <p>
-  <a href="#overview">Overview</a> ·
-  <a href="#taxonomy">Taxonomy</a> ·
-  <a href="#evaluation-and-optimization">Evaluation & Optimization</a> ·
-  <a href="#resource-collection">Resources</a> ·
-  <a href="#machine-readable-resources">Data Files</a> ·
-  <a href="#contribution-guide">Contribute</a> ·
-  <a href="#citation">Citation</a>
+  <a href="#about-the-survey"><b>About</b></a> &nbsp;·&nbsp;
+  <a href="#conceptual-framework"><b>Framework</b></a> &nbsp;·&nbsp;
+  <a href="#research-collection"><b>Collection</b></a> &nbsp;·&nbsp;
+  <a href="#machine-readable-resources"><b>Data Files</b></a> &nbsp;·&nbsp;
+  <a href="#citation"><b>Citation</b></a>
+</p>
+
+<p>
+  <img src="docs/USTC.png" height="54" alt="University of Science and Technology of China" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/THU.png" height="54" alt="Tsinghua University" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/HUST.png" height="54" alt="Huazhong University of Science and Technology" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/logo.png" height="54" alt="University of Cambridge" />
 </p>
 
 </div>
 
----
-
-## Overview
-
-This repository accompanies the survey:
-
-> **Consistency in Diffusion-Based Visual Generation: A Survey**  
-> Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, and Zheng-Jun Zha.  
-> *Preprints*, 2026 · [Paper](https://www.preprints.org/manuscript/202606.0870/v1) · [DOI](https://doi.org/10.20944/preprints202606.0870.v1)
-
-Diffusion models now support text-to-image synthesis, editing, personalization, video generation, and 3D-aware content creation. Visual fidelity alone, however, does not guarantee that an output follows its prompt, preserves identity, remains coherent over time or viewpoint, or satisfies safety and physical-plausibility requirements.
-
-The survey organizes these failures through a single question:
-
-> **What should a generated visual output agree with?**
-
-Its answer is a relation-based taxonomy of **external**, **internal**, and **normative** consistency. The repository turns this taxonomy into a navigable literature map covering representative methods, benchmarks, evaluators, datasets, and diagnostic resources.
-
-### Key contributions
-
-1. **Relation-based taxonomy** — organizes consistency according to the target of agreement rather than only by task or modality.
-2. **Evaluation protocol abstraction** — separates observation units, agreement targets, evidence sources, and evaluation outputs.
-3. **Optimization-locus analysis** — compares where consistency is imposed: before sampling, at the condition interface, during denoising, across coupled outputs, or after generation.
-4. **Machine-readable resource map** — provides structured CSV and BibTeX files for maintenance, comparison, and downstream analysis.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Resources-355-4c78a8?style=flat-square" alt="355 resources">
-  <img src="https://img.shields.io/badge/Methods-225-59a14f?style=flat-square" alt="225 methods">
-  <img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-70-f28e2b?style=flat-square" alt="70 benchmarks and evaluators">
-  <img src="https://img.shields.io/badge/Datasets%20%26%20Data-60-e15759?style=flat-square" alt="60 datasets and data resources">
-</p>
-
----
-
-## Taxonomy
-
 <p align="center">
   <a href="paper/Cons_01.png">
-    <img src="paper/Cons_01.png" width="96%" alt="Three consistency relations in diffusion-based visual generation">
+    <img src="paper/Cons_01.png" width="94%" alt="Three consistency relations in diffusion-based visual generation">
   </a>
 </p>
 
-<p align="center"><sub><b>Figure 1.</b> Three consistency relations in diffusion-based visual generation.</sub></p>
-
-| Relation | Agreement target | Representative failures | Typical settings | Resources |
-|---|---|---|---|---:|
-| **External consistency** | Prompts, references, layouts, masks, poses, controls, and editing instructions | Prompt omission, attribute-binding error, counting error, control mismatch, over-editing | Text-to-image generation, structural control, editing, inpainting, virtual try-on, typography | **125** |
-| **Internal consistency** | Generated subjects, views, frames, shots, instances, and story states | Identity drift, view inconsistency, temporal flicker, state forgetting, narrative discontinuity | Personalization, multi-view/3D generation, video generation, story visualization | **123** |
-| **Normative consistency** | Preference, safety, fairness, physical plausibility, commonsense, and causal/world-state criteria | Low preference, unsafe output, benign-capability loss, physical violation, causal failure | Preference optimization, safety editing, concept erasure, physical and world-model evaluation | **107** |
-
-The categories are conceptually distinct but practically entangled. A method may address several relations simultaneously; the repository places it according to its **primary agreement target** while retaining its broader diagnostic role in the description and coverage files.
+<p align="center">
+  <sub><b>Three agreement relations for diffusion-based visual generation.</b> Click the figure to view it at full resolution.</sub>
+</p>
 
 ---
 
-## Evaluation and optimization
+## About the survey
+
+<div align="center">
+
+**[Consistency in Diffusion-Based Visual Generation: A Survey](https://www.preprints.org/manuscript/202606.0870/v1)**
+
+Song Yan, Wei Zhai, Chenfeng Wang, Ruixuan Li, Zhangping Yang, Yancheng Cai, Tao Zhang, Ling Wang, Yunwei Lan, Yujie He, Yang Cao, Min Li, and Zheng-Jun Zha
+
+*Preprints, 2026* · [DOI](https://doi.org/10.20944/preprints202606.0870.v1)
+
+</div>
+
+Diffusion models now support text-to-image synthesis, editing, personalization, video generation, and 3D-aware content creation. Yet visual quality alone does not guarantee that a result follows its prompt, preserves identity, remains coherent across time or viewpoints, or satisfies preference, safety, commonsense, and physical-plausibility requirements.
+
+The survey unifies these problems through one organizing question:
+
+> ### What should a generated visual output agree with?
+
+The answer is a relation-based framework covering agreement with **external conditions**, agreement **within generated content**, and agreement with **normative or world-level criteria**. This repository operationalizes that framework as a structured literature map.
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center">
-  <a href="paper/Eval_01.png"><img src="paper/Eval_01.png" width="100%" alt="Evaluation protocol for consistency claims"></a>
-</td>
-<td width="50%" valign="top" align="center">
-  <a href="paper/Optimize_01.png"><img src="paper/Optimize_01.png" width="100%" alt="Optimization loci for enforcing consistency"></a>
-</td>
+<td align="center" width="25%"><h3>355</h3><sub>CURATED RESOURCES</sub></td>
+<td align="center" width="25%"><h3>225</h3><sub>METHODS</sub></td>
+<td align="center" width="25%"><h3>70</h3><sub>BENCHMARKS & EVALUATORS</sub></td>
+<td align="center" width="25%"><h3>60</h3><sub>DATASETS & DATA RESOURCES</sub></td>
 </tr>
+</table>
+
+### What this repository provides
+
+<table>
 <tr>
-<td valign="top">
-  <b>Evaluation view.</b> A consistency claim should specify the observation unit, agreement target, evidence source, and evaluation output. This prevents sequence-level claims from being supported only by frame-level evidence, or specific alignment claims from being reduced to broad preference scores.
-</td>
-<td valign="top">
-  <b>Optimization view.</b> Consistency can be imposed before sampling, at the condition interface, during denoising, across coupled outputs, or after generation. Each locus creates different trade-offs among persistence, controllability, realism, diversity, memory cost, and modularity.
-</td>
+<td width="25%" valign="top"><b>Relation-based taxonomy</b><br><sub>Organizes methods by their primary agreement target rather than only by task or modality.</sub></td>
+<td width="25%" valign="top"><b>Evaluation abstraction</b><br><sub>Separates observation units, targets, evidence sources, and evaluation outputs.</sub></td>
+<td width="25%" valign="top"><b>Optimization map</b><br><sub>Locates consistency interventions before, during, across, or after generation.</sub></td>
+<td width="25%" valign="top"><b>Structured resources</b><br><sub>Provides maintainable CSV and BibTeX files for analysis and extension.</sub></td>
 </tr>
 </table>
 
 ---
 
-## Resource collection
+## Conceptual framework
 
-The literature map is organized first by consistency relation and then by resource type:
+### Three consistency relations
 
-- **Methods** — model architectures, training objectives, inference-time guidance, editing mechanisms, alignment strategies, and verification pipelines.
-- **Benchmarks & Evaluators** — test suites, automatic metrics, learned scorers, human-evaluation protocols, and stress tests.
-- **Datasets & Data Resources** — training corpora, preference data, structured annotations, and diagnostic prompt sets.
+| | Relation | Primary agreement target | Representative failure modes |
+|:--:|---|---|---|
+| **01** | **External consistency** | Prompts, references, layouts, masks, poses, controls, and editing instructions | Prompt omission, attribute-binding errors, counting errors, control mismatch, over-editing |
+| **02** | **Internal consistency** | Subjects, views, frames, shots, instances, and story states within generated content | Identity drift, view inconsistency, temporal flicker, state forgetting, narrative discontinuity |
+| **03** | **Normative consistency** | Preference, safety, fairness, physical plausibility, commonsense, causality, and world-state validity | Low preference, unsafe output, benign-capability loss, physical violations, causal failure |
 
-Each entry follows a compact format:
+These relations are conceptually distinct but often operationally entangled. A method may affect several relations simultaneously; entries are placed according to their **primary agreement target**, while secondary roles are retained in their descriptions and coverage labels.
+
+### Evaluation and optimization views
+
+<p align="center">
+  <a href="paper/Eval_01.png">
+    <img src="paper/Eval_01.png" width="88%" alt="Evaluation protocol for consistency claims">
+  </a>
+</p>
+
+<p align="center"><sub><b>Evaluation view.</b> A consistency claim should specify the observation unit, agreement target, evidence source, and evaluation output.</sub></p>
+
+<p align="center">
+  <a href="paper/Optimize_01.png">
+    <img src="paper/Optimize_01.png" width="88%" alt="Optimization loci for enforcing consistency">
+  </a>
+</p>
+
+<p align="center"><sub><b>Optimization view.</b> Consistency can be imposed before sampling, at the condition interface, during denoising, across coupled outputs, or after generation.</sub></p>
+
+> [!IMPORTANT]
+> A metric should match the granularity of the claim. Sequence-level consistency should not be established only through frame-level scores, and a specific claim such as identity preservation or physical plausibility should not be reduced to a generic preference score.
+
+---
+
+## Research collection
+
+The collection is organized by **consistency relation** and then by **resource type**. All long lists are collapsed by default to keep the page readable.
+
+| Consistency relation | Methods | Benchmarks & evaluators | Datasets & data | Total |
+|---|---:|---:|---:|---:|
+| [External consistency](#external-consistency) | 85 | 20 | 20 | **125** |
+| [Internal consistency](#internal-consistency) | 83 | 20 | 20 | **123** |
+| [Normative consistency](#normative-consistency) | 57 | 30 | 20 | **107** |
+| **Total** | **225** | **70** | **60** | **355** |
+
+Each entry follows the format:
 
 > **Title** *(venue/year or source)* — the consistency issue, mechanism, or diagnostic role addressed by the resource.
 
 > [!NOTE]
-> Recent papers may temporarily be labeled **arXiv**, **project**, or **venue TBD** until stable proceedings metadata becomes available. Official paper repositories and project pages are preferred over unofficial reimplementations.
+> Very recent papers may temporarily be labeled **arXiv**, **project**, or **venue TBD** until stable proceedings metadata becomes available. Official paper repositories and author-maintained project pages are preferred.
 
 ---
 
 ## External consistency
 
-> **Agreement target:** Agreement with externally specified conditions.  
-> **Scope:** Prompts, layouts, boxes, masks, depth maps, poses, reference images, editing instructions, and other user- or task-provided controls.
+<table>
+<tr>
+<td width="18%" align="center"><h2>01</h2><b>EXTERNAL</b></td>
+<td valign="top"><b>Agreement with externally specified conditions</b><br><sub>Prompts, layouts, boxes, masks, depth maps, poses, reference images, editing instructions, and other user- or task-provided controls.</sub></td>
+</tr>
+</table>
 
-<details open>
-<summary><strong>Methods</strong> · 85 entries</summary>
+<details>
+<summary><b>Methods</b> &nbsp; <code>85 entries</code></summary>
 
 <br>
 
@@ -228,7 +251,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Benchmarks & Evaluators</strong> · 20 entries</summary>
+<summary><b>Benchmarks & Evaluators</b> &nbsp; <code>20 entries</code></summary>
 
 <br>
 
@@ -256,7 +279,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Datasets & Data Resources</strong> · 20 entries</summary>
+<summary><b>Datasets & Data Resources</b> &nbsp; <code>20 entries</code></summary>
 
 <br>
 
@@ -289,11 +312,15 @@ Each entry follows a compact format:
 
 ## Internal consistency
 
-> **Agreement target:** Agreement among generated states.  
-> **Scope:** Subjects, identities, views, frames, shots, scenes, instances, and story states that should remain mutually compatible.
+<table>
+<tr>
+<td width="18%" align="center"><h2>02</h2><b>INTERNAL</b></td>
+<td valign="top"><b>Agreement among generated states</b><br><sub>Subjects, identities, views, frames, shots, scenes, instances, and story states that should remain mutually compatible.</sub></td>
+</tr>
+</table>
 
-<details open>
-<summary><strong>Methods</strong> · 83 entries</summary>
+<details>
+<summary><b>Methods</b> &nbsp; <code>83 entries</code></summary>
 
 <br>
 
@@ -384,7 +411,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Benchmarks & Evaluators</strong> · 20 entries</summary>
+<summary><b>Benchmarks & Evaluators</b> &nbsp; <code>20 entries</code></summary>
 
 <br>
 
@@ -412,7 +439,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Datasets & Data Resources</strong> · 20 entries</summary>
+<summary><b>Datasets & Data Resources</b> &nbsp; <code>20 entries</code></summary>
 
 <br>
 
@@ -445,11 +472,15 @@ Each entry follows a compact format:
 
 ## Normative consistency
 
-> **Agreement target:** Agreement with evaluative or world-level criteria.  
-> **Scope:** Human preference, aesthetics, safety, fairness, concept restrictions, physical plausibility, commonsense, causality, and world-state validity.
+<table>
+<tr>
+<td width="18%" align="center"><h2>03</h2><b>NORMATIVE</b></td>
+<td valign="top"><b>Agreement with evaluative principles and world-level criteria</b><br><sub>Human preference, aesthetics, safety, fairness, concept restrictions, physical plausibility, commonsense, causality, and world-state validity.</sub></td>
+</tr>
+</table>
 
-<details open>
-<summary><strong>Methods</strong> · 57 entries</summary>
+<details>
+<summary><b>Methods</b> &nbsp; <code>57 entries</code></summary>
 
 <br>
 
@@ -514,7 +545,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Benchmarks & Evaluators</strong> · 30 entries</summary>
+<summary><b>Benchmarks & Evaluators</b> &nbsp; <code>30 entries</code></summary>
 
 <br>
 
@@ -552,7 +583,7 @@ Each entry follows a compact format:
 </details>
 
 <details>
-<summary><strong>Datasets & Data Resources</strong> · 20 entries</summary>
+<summary><b>Datasets & Data Resources</b> &nbsp; <code>20 entries</code></summary>
 
 <br>
 
@@ -585,6 +616,9 @@ Each entry follows a compact format:
 
 ## Machine-readable resources
 
+> Structured files for programmatic analysis, taxonomy maintenance, and reproducible coverage tracking.
+
+
 The repository includes structured companion files for programmatic analysis and maintenance:
 
 - [`resources/benchmark_coverage.csv`](resources/benchmark_coverage.csv): benchmark, dataset, evaluator, and diagnostic-resource coverage map.
@@ -592,7 +626,7 @@ The repository includes structured companion files for programmatic analysis and
 - [`resources/taxonomy_methods.csv`](resources/taxonomy_methods.csv): compact mapping from taxonomy nodes to representative methods and resources.
 - [`resources/selected_bibtex.bib`](resources/selected_bibtex.bib): selected BibTeX entries.
 
-## Coverage labels
+### Coverage labels
 
 | Label | Meaning |
 |---|---|
@@ -605,7 +639,7 @@ The repository includes structured companion files for programmatic analysis and
 
 Coverage values: **H** = direct/dedicated coverage, **M** = partial/adaptable coverage, **L** = indirect/low coverage.
 
-## Contribution guide
+## Contributing
 
 Contributions are welcome. Please keep additions concise, verifiable, and aligned with the relation-based taxonomy. Please include the resource title, BibTeX key, venue/year, official paper URL, official project/code URL if available, resource type, modality, primary consistency relation, coverage values, and a short diagnostic-use/blind-spot description.
 
@@ -614,7 +648,7 @@ Use the issue template: **[Add or correct a resource](.github/ISSUE_TEMPLATE/res
 > [!TIP]
 > Prefer official paper pages, author-maintained repositories, and stable proceedings links. Include enough information for another maintainer to verify the entry without additional searching.
 
-## Maintenance notes
+### Maintenance notes
 
 Some 2025--2026 papers may initially appear as arXiv or project-page entries before official proceedings metadata is stable. When official BibTeX becomes available, please update [`resources/selected_bibtex.bib`](resources/selected_bibtex.bib) and any corresponding table entries. 
 
