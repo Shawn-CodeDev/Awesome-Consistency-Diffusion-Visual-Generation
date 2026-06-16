@@ -4,8 +4,6 @@
 
 # Consistency in Diffusion-Based Visual Generation: A Survey
 
-### A curated survey companion for consistency in diffusion-based visual generation
-
 <p>
   <img src="docs/USTC.png" height="92" alt="University of Science and Technology of China" />
   &nbsp;&nbsp;&nbsp;&nbsp;
