@@ -21,8 +21,6 @@
   <a href="https://doi.org/10.20944/preprints202606.0870.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202606.0870.v1-2f6f9f?style=flat-square" alt="DOI"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License"></a>
-  <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers"><img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=flat-square" alt="GitHub stars"></a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation" alt="Visitors">
 </p>
 
 <p>
