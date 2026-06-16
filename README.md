@@ -26,9 +26,6 @@
   <a href="https://www.preprints.org/manuscript/202606.0870/v1">
     <img src="https://img.shields.io/badge/arXiv-preprint-b31b1b.svg" alt="Preprint">
   </a>
-  <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers">
-    <img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=social" alt="GitHub stars">
-  </a>
 </p>
 
 This repository accompanies the survey:
