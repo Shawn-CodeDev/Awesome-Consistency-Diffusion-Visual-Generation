@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: python scripts/validate_recent_papers.py
-      - run: python -m unittest discover -s tests -p 'test_recent_papers.py' -v
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v

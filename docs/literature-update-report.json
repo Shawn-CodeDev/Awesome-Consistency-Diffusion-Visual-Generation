@@ -1,14 +1,27 @@
 {
   "snapshot": "2026-09-16",
-  "status": "generated-from-reviewed-repository-snapshot",
+  "status": "integrated-with-reviewed-base-commit",
   "base_commit": "c294df451fb73db11bc118eedfa8cc59a4fa179c",
+  "base_tree": "eb1593dd6b9e7113e1d66a3986b9f4af7bad6ff6",
   "base_readme_blob": "4048642f8ff1e35a0c05f5e65b809c67495cfa2b",
   "base_readme_sha256": "09339a1affc9d26ef022c41a80159203934bf13133a0f006f3e4b1241738b745",
   "legacy_list_entries_preserved_inline": 355,
   "distinct_recent_papers": 81,
-  "recognized_existing_recent_ids": [],
-  "not_recognized_in_base_collection": 81,
-  "deduplication_scope": "canonical arXiv identifiers and normalized leading entry names; not a semantic audit",
+  "recognized_in_legacy_readme_ids": [],
+  "existing_recent_register": "RECENT_PAPERS.md",
+  "existing_recent_register_records": 81,
+  "new_unique_papers_relative_to_existing_recent_register": 0,
+  "integration_type": "Enrich and surface the existing 81-paper register; do not count it as 81 new repository papers",
+  "deduplication_scope": "Original recent CSV metadata and canonical paper URLs are checked against the expanded JSON by CI; the earlier 355-entry README is not a semantic deduplication audit",
+  "preserved_existing_files": {
+    "RECENT_PAPERS.md": "af92776c1ca53037b0541a5ac341968528d85790",
+    "resources/benchmark_coverage.csv": "39e394635651e6d6655174e5124ae365db840a53",
+    "resources/taxonomy_methods.csv": "a8b4ea0b48bdeeda76f0fa4f962a533309e76687"
+  },
+  "expanded_csv": "resources/recent_papers.csv",
+  "expanded_csv_note": "Adds detailed fields while preserving all four original metadata fields and all original paper records",
+  "original_csv_archive": "docs/archive/recent_papers.before-2026-09-16.csv",
+  "original_csv_blob": "3cfd3a03f93bff32104ec3b1571b5130938f80ca",
   "figure_paths_preserved": {
     "Cons": "paper/Cons_01.png",
     "Eval": "paper/Eval_01.png",
@@ -16,60 +29,15 @@
   },
   "visitor_badge_source": "https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation",
   "targeted_corrections": [
-    {
-      "name": "TIFA",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2303.11897"
-    },
-    {
-      "name": "GenEval",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2310.11513"
-    },
-    {
-      "name": "T2I-CompBench",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2307.06350"
-    },
-    {
-      "name": "HumanSD",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2304.04269"
-    },
-    {
-      "name": "FreeDoM",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2303.09833"
-    },
-    {
-      "name": "FastComposer",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2305.10431"
-    },
-    {
-      "name": "Video-P2P",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2303.04761"
-    },
-    {
-      "name": "VideoCrafter2",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2401.09047"
-    },
-    {
-      "name": "ShotAdapter",
-      "matched_entries": 1,
-      "replaced_links": 1,
-      "paper_url": "https://arxiv.org/abs/2505.07652"
-    }
+    {"name": "TIFA", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2303.11897"},
+    {"name": "GenEval", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2310.11513"},
+    {"name": "T2I-CompBench", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2307.06350"},
+    {"name": "HumanSD", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2304.04269"},
+    {"name": "FreeDoM", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2303.09833"},
+    {"name": "FastComposer", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2305.10431"},
+    {"name": "Video-P2P", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2303.04761"},
+    {"name": "VideoCrafter2", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2401.09047"},
+    {"name": "ShotAdapter", "matched_entries": 1, "replaced_links": 1, "paper_url": "https://arxiv.org/abs/2505.07652"}
   ],
   "archive": "docs/archive/README.before-2026-09-16.md",
   "verification_scope": "primary abstract/metadata register; no full-text or experimental replication claim"
