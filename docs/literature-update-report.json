@@ -1,0 +1,76 @@
+{
+  "snapshot": "2026-09-16",
+  "status": "generated-from-reviewed-repository-snapshot",
+  "base_commit": "c294df451fb73db11bc118eedfa8cc59a4fa179c",
+  "base_readme_blob": "4048642f8ff1e35a0c05f5e65b809c67495cfa2b",
+  "base_readme_sha256": "09339a1affc9d26ef022c41a80159203934bf13133a0f006f3e4b1241738b745",
+  "legacy_list_entries_preserved_inline": 355,
+  "distinct_recent_papers": 81,
+  "recognized_existing_recent_ids": [],
+  "not_recognized_in_base_collection": 81,
+  "deduplication_scope": "canonical arXiv identifiers and normalized leading entry names; not a semantic audit",
+  "figure_paths_preserved": {
+    "Cons": "paper/Cons_01.png",
+    "Eval": "paper/Eval_01.png",
+    "Optimize": "paper/Optimize_01.png"
+  },
+  "visitor_badge_source": "https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation",
+  "targeted_corrections": [
+    {
+      "name": "TIFA",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2303.11897"
+    },
+    {
+      "name": "GenEval",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2310.11513"
+    },
+    {
+      "name": "T2I-CompBench",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2307.06350"
+    },
+    {
+      "name": "HumanSD",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2304.04269"
+    },
+    {
+      "name": "FreeDoM",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2303.09833"
+    },
+    {
+      "name": "FastComposer",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2305.10431"
+    },
+    {
+      "name": "Video-P2P",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2303.04761"
+    },
+    {
+      "name": "VideoCrafter2",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2401.09047"
+    },
+    {
+      "name": "ShotAdapter",
+      "matched_entries": 1,
+      "replaced_links": 1,
+      "paper_url": "https://arxiv.org/abs/2505.07652"
+    }
+  ],
+  "archive": "docs/archive/README.before-2026-09-16.md",
+  "verification_scope": "primary abstract/metadata register; no full-text or experimental replication claim"
+}
