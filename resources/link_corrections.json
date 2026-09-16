@@ -1,0 +1,83 @@
+[
+  {
+    "name": "TIFA",
+    "old_urls": [
+      "https://arxiv.org/search/?query=object+attribute+benchmark+text+to+image&searchtype=all"
+    ],
+    "paper_url": "https://arxiv.org/abs/2303.11897",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "GenEval",
+    "old_urls": [
+      "https://arxiv.org/abs/2305.05298"
+    ],
+    "paper_url": "https://arxiv.org/abs/2310.11513",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "T2I-CompBench",
+    "old_urls": [
+      "https://arxiv.org/search/?query=text+rendering+benchmark+diffusion&searchtype=all"
+    ],
+    "paper_url": "https://arxiv.org/abs/2307.06350",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "HumanSD",
+    "old_urls": [
+      "https://arxiv.org/abs/2303.16747"
+    ],
+    "paper_url": "https://arxiv.org/abs/2304.04269",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "FreeDoM",
+    "old_urls": [
+      "https://arxiv.org/abs/2303.16747"
+    ],
+    "paper_url": "https://arxiv.org/abs/2303.09833",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "FastComposer",
+    "old_urls": [
+      "https://arxiv.org/abs/2302.09778"
+    ],
+    "paper_url": "https://arxiv.org/abs/2305.10431",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "Video-P2P",
+    "old_urls": [
+      "https://arxiv.org/abs/2303.09538"
+    ],
+    "paper_url": "https://arxiv.org/abs/2303.04761",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "VideoCrafter2",
+    "old_urls": [
+      "https://arxiv.org/abs/2311.10125"
+    ],
+    "paper_url": "https://arxiv.org/abs/2401.09047",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  },
+  {
+    "name": "ShotAdapter",
+    "old_urls": [
+      "https://arxiv.org/abs/2406.12698"
+    ],
+    "paper_url": "https://arxiv.org/abs/2505.07652",
+    "checked_on": "2026-09-16",
+    "scope": "Paper URL only; no change to venue, authors, or empirical claims"
+  }
+]

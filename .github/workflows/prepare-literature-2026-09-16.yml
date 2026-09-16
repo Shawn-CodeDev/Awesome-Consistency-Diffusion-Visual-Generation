@@ -1,0 +1,37 @@
+name: Prepare literature update (one-time)
+on:
+  push:
+    branches: [docs/literature-update-2026-09-16]
+    paths:
+      - '.maintenance/literature-2026-09-16/**'
+      - '.github/workflows/prepare-literature-2026-09-16.yml'
+permissions:
+  contents: write
+jobs:
+  prepare:
+    if: github.repository == 'Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: docs/literature-update-2026-09-16
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Integrate against the reviewed README snapshot
+        run: python .maintenance/literature-2026-09-16/prepare.py
+      - name: Validate generated files and preservation regressions
+        run: |
+          python scripts/validate_recent_papers.py
+          python -m unittest discover -s tests -p 'test_recent_papers.py' -v
+          python scripts/check_resource_table.py
+          git -c core.whitespace=-blank-at-eol diff --check
+      - name: Commit generated documentation to the update branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md docs/archive/README.before-2026-09-16.md docs/recent-papers.md docs/literature-update-report.json resources/recent_papers.json resources/recent_papers.csv resources/recent_papers.bib resources/survey_preprint.bib
+          git rm -r -- .maintenance/literature-2026-09-16 .github/workflows/prepare-literature-2026-09-16.yml
+          git commit -m 'docs: publish 81 recent papers and preserve the existing survey collection'
+          git push origin HEAD:refs/heads/docs/literature-update-2026-09-16
