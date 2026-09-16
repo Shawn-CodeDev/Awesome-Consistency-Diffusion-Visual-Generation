@@ -39,3 +39,20 @@ Normative,Physics-IQ,physics_iq_wacv2026,https://github.com/google-deepmind/phys
 Normative,PhyWorldBench,phyworldbench,https://github.com/g-jing/phy-world-bench,Bench.,T2V,Norm.,L,L,L,M,M,H,Comprehensive physical realism benchmark for text-to-video.
 Normative,VideoVerse,videoverse_worldbench,https://github.com/Zeqing-Wang/VideoVerse,Bench.,T2V,Norm.,L,L,L,M,M,H,World-model-oriented T2V evaluation.
 Normative,PhyEduVideo,videophy_edu,https://github.com/meghamariamkm/PhyEduVideo,Dataset/Bench.,T2V,Norm.,L,L,L,M,L,H,Physics-education-oriented benchmark exposing explanatory and world-consistency gaps.
+External,OmniGen2,omnigen2_2506,https://github.com/VectorSpaceLab/OmniGen2,Bench./Method,T2I/Edit,Ext./Int.,H,H,M,L,L,L,"Unified generation and editing system; OmniContext probes reference-conditioned subject consistency and instruction alignment."
+External,SpatialReward,spatialreward_2603,,Eval./Bench.,T2I,Ext.,H,M,L,L,L,L,"Fine-grained spatial relation reward and SpatRelBench; strong for spatial faithfulness but not temporal or identity persistence."
+External,TIIF-Bench,tiifbench_2506,,Bench.,T2I,Ext.,H,M,L,L,L,L,"Fine-grained instruction-following benchmark across prompt complexity, text rendering, and style control."
+External,T2I-ReasonBench,t2ireasonbench_2508,,Bench.,T2I,Ext./Norm.,H,L,L,L,M,M,"Reasoning-informed T2I benchmark separating reasoning accuracy from image quality across knowledge-heavy prompts."
+External,Step1X-Edit/GEdit-Bench,step1xedit_2504,,Bench./Method,Edit,Ext.,M,H,L,L,L,L,"Real-user image-editing benchmark emphasizing instruction compliance and source preservation."
+Internal,CogCanvas,cogcanvas_2606,,Bench.,T2I,Int./Ext.,M,M,H,M,L,L,"Multi-subject reference benchmark testing identity, per-subject binding, background fidelity, and interaction plausibility."
+Internal,ReCA,reca_2605,,Bench./Method,T2V,Int.,M,L,H,H,L,M,"Multi-shot long-video benchmark and method for recursive context allocation; targets long-range entity and scene persistence."
+Internal,MSAVBench,msavbench_2605,,Bench.,T2V/Audio,Int.,M,L,M,H,L,L,"Multi-shot audio-video benchmark focused on cross-shot continuity and multimodal narrative coherence."
+Internal,EntityBench,entitybench_2605,https://github.com/Catherine-R-He/EntityBench/,Bench./Method,T2V,Int.,M,L,H,H,L,L,"Dedicated long-range entity-consistency benchmark for multi-shot video generation."
+Internal,ConsID-Gen,considgen_2602,,Bench./Method,T2V/3D,Int.,L,M,H,H,L,L,"View-consistent identity-preserving I2V benchmark and method; strong on cross-view subject persistence."
+Internal,StoryMem,storymem_2512,,Bench./Method,T2V,Int.,M,L,H,H,L,L,"Memory-based multi-shot storytelling benchmark and method for character and narrative persistence over long videos."
+Normative,VBench-2.0,vbench2_2503,,Bench.,T2V,Norm./Int.,M,L,M,H,M,H,"Extends video evaluation toward intrinsic faithfulness, including dynamics and world-consistency dimensions."
+Normative,VideoScore2,videoscore2_2509,,Eval./Dataset,T2V,Norm./Int.,M,L,M,H,H,M,"Reasoning-oriented generative video evaluator; useful for multidimensional quality and faithfulness judgments."
+Normative,SafeGen-Bench,safegenbench_2606,,Bench.,I2V/T2V,Norm.,L,L,L,M,H,M,"Safety benchmark for image-conditioned text-to-video generation; focuses on unsafe content under visual conditioning."
+Normative,PhyEditBench,phyeditbench_2606,https://github.com/Previsior/PhyEditBench,Bench./Method,Edit,Norm./Ext.,M,H,L,M,L,H,"Real-world multi-stage benchmark for physics-aware image editing and physically plausible transformation sequences."
+Normative,PhyGround,phyground_2605,,Bench./Eval.,T2V,Norm.,L,L,L,M,L,H,"Physical-reasoning benchmark for generative world models; targets grounded dynamics and causal plausibility."
+Normative,Physion-Eval,physioneval_2603,,Bench./Dataset,T2V,Norm.,L,L,L,M,L,H,"Human-reasoning-oriented evaluation of physical realism in generated video."
