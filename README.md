@@ -26,8 +26,6 @@
   <a href="#overview">Overview</a> ·
   <a href="#taxonomy">Taxonomy</a> ·
   <a href="#evaluation-and-optimization">Evaluation & Optimization</a> ·
-  <a href="#recent-literature">Recent papers</a> ·
-  <a href="#additional-200-papers">Additional 200</a> ·
   <a href="#resource-collection">Resources</a> ·
   <a href="#machine-readable-resources">Data Files</a> ·
   <a href="#contribution-guide">Contribute</a> ·
