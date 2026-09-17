@@ -27,6 +27,7 @@
   <a href="#taxonomy">Taxonomy</a> ·
   <a href="#evaluation-and-optimization">Evaluation & Optimization</a> ·
   <a href="#recent-literature">Recent papers</a> ·
+  <a href="#additional-200-papers">Additional 200</a> ·
   <a href="#resource-collection">Resources</a> ·
   <a href="#machine-readable-resources">Data Files</a> ·
   <a href="#contribution-guide">Contribute</a> ·
@@ -37,6 +38,7 @@
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers"><img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=flat-square&amp;label=Stars&amp;color=E3B341" alt="GitHub stars"></a>
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation"><img src="https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation" alt="Visitor badge requests"></a>
   <a href="#recent-literature"><img src="https://img.shields.io/badge/Recent%20papers-81-2563EB?style=flat-square" alt="81 recent papers"></a>
+  <a href="#additional-200-papers"><img src="https://img.shields.io/badge/Additional%20papers-200-7C3AED?style=flat-square" alt="200 additional papers"></a>
 </p>
 
 </div>
@@ -334,6 +336,38 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 [Back to recent-literature navigation](#recent-literature)
 <!-- END GENERATED RECENT PAPERS -->
+
+---
+
+
+---
+
+<!-- BEGIN ADDITIONAL-200-2026-09-16 -->
+<a id="additional-200-papers"></a>
+## Additional literature · 200 papers
+
+<p align="center">
+  <a href="docs/additional-papers-200.md"><img src="https://img.shields.io/badge/Additional%20papers-200-7C3AED?style=flat-square" alt="200 additional papers"></a>
+  <img src="https://img.shields.io/badge/External-79-4C78A8?style=flat-square" alt="79 external-consistency papers">
+  <img src="https://img.shields.io/badge/Internal-64-59A14F?style=flat-square" alt="64 internal-consistency papers">
+  <img src="https://img.shields.io/badge/Normative-57-E15759?style=flat-square" alt="57 normative-consistency papers">
+</p>
+
+A second literature pass adds **200 further papers** relevant to consistency in diffusion-based visual generation. This batch remains separate from the earlier 81-paper register so that provenance and counting stay explicit.
+
+| Primary relation | Papers | Main coverage |
+|:--|--:|:--|
+| **External consistency** | **79** | Compositional prompting, structural control, image/video editing, visual text, virtual try-on, and editing evaluation |
+| **Internal consistency** | **64** | Identity preservation, multi-view geometry, temporal coherence, multi-shot storytelling, and persistent scene memory |
+| **Normative consistency** | **57** | Preference and reward learning, concept erasure and retention, safety, fairness, and physical plausibility |
+
+**[Browse the complete 200-paper catalog →](docs/additional-papers-200.md)**
+
+The catalog is split into smaller pages for faster GitHub rendering: [Part 1](docs/additional-papers-200/part-01.md) · [Part 2](docs/additional-papers-200/part-02.md) · [Part 3](docs/additional-papers-200/part-03.md) · [Part 4](docs/additional-papers-200/part-04.md) · [Part 5](docs/additional-papers-200/part-05.md) · [Part 6](docs/additional-papers-200/part-06.md) · [Part 7](docs/additional-papers-200/part-07.md) · [Part 8](docs/additional-papers-200/part-08.md).
+
+> **Counting note.** The earlier dated register contains 81 papers and this second pass contains 200 papers. The historical resource collection below mixes papers, benchmarks, datasets, evaluators, and topic placeholders, so its resource count should not be added to 81 + 200 as a deduplicated publication total.
+
+<!-- END ADDITIONAL-200-2026-09-16 -->
 
 ---
 
