@@ -36,7 +36,7 @@
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers"><img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=flat-square&amp;label=Stars&amp;color=E3B341" alt="GitHub stars"></a>
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation"><img src="https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation" alt="Visitor badge requests"></a>
   <a href="#recent-literature"><img src="https://img.shields.io/badge/Recent%20papers-81-2563EB?style=flat-square" alt="81 recent papers"></a>
-  <a href="#additional-200-papers"><img src="https://img.shields.io/badge/Additional%20papers-200-7C3AED?style=flat-square" alt="200 additional papers"></a>
+ </a>
 </p>
 
 </div>
