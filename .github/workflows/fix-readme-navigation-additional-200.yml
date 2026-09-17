@@ -1,0 +1,41 @@
+name: Fix README navigation for additional 200
+
+on:
+  push:
+    branches:
+      - docs/fix-readme-navigation-additional-200
+
+permissions:
+  contents: write
+
+jobs:
+  fix-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: docs/fix-readme-navigation-additional-200
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Repair README header and validate preserved content
+        run: |
+          python .maintenance/fix-readme-navigation.py
+          git diff --check
+          grep -q 'href="#recent-literature">Recent papers' README.md
+          grep -q 'href="#additional-200-papers">Additional 200' README.md
+          grep -q 'docs/additional-papers-200.md' README.md
+          grep -q 'paper/Cons_01.png' README.md
+          grep -q 'paper/Eval_01.png' README.md
+          grep -q 'paper/Optimize_01.png' README.md
+          python scripts/check_resource_table.py
+          if [ -f scripts/validate_recent_papers.py ]; then python scripts/validate_recent_papers.py; fi
+          python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Commit repaired README and remove temporary files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git rm .maintenance/fix-readme-navigation.py .github/workflows/fix-readme-navigation-additional-200.yml
+          git commit -m 'docs: repair README navigation and expose 200-paper catalog'
+          git push origin HEAD:refs/heads/docs/fix-readme-navigation-additional-200
