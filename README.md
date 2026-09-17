@@ -27,7 +27,6 @@
   <a href="#taxonomy">Taxonomy</a> ·
   <a href="#evaluation-and-optimization">Evaluation & Optimization</a> ·
   <a href="#recent-literature">Recent papers</a> ·
-  <a href="#additional-200-papers">Additional 200</a> ·
   <a href="#resource-collection">Resources</a> ·
   <a href="#machine-readable-resources">Data Files</a> ·
   <a href="#contribution-guide">Contribute</a> ·
@@ -37,7 +36,7 @@
 <p align="center">
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation/stargazers"><img src="https://img.shields.io/github/stars/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation?style=flat-square&amp;label=Stars&amp;color=E3B341" alt="GitHub stars"></a>
   <a href="https://github.com/Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation"><img src="https://visitor-badge.laobi.icu/badge?page_id=Shawn-CodeDev.Awesome-Consistency-Diffusion-Visual-Generation" alt="Visitor badge requests"></a>
-  <a href="#recent-literature"><img src="https://img.shields.io/badge/Recent%20papers-81-2563EB?style=flat-square" alt="81 recent papers"></a>
+  <a href="#recent-literature"><img src="https://img.shields.io/badge/Recent%20register-81-2563EB?style=flat-square" alt="81-paper recent register"></a>
   <a href="#additional-200-papers"><img src="https://img.shields.io/badge/Additional%20papers-200-7C3AED?style=flat-square" alt="200 additional papers"></a>
 </p>
 
@@ -339,35 +338,40 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 ---
 
-
----
-
 <!-- BEGIN ADDITIONAL-200-2026-09-16 -->
 <a id="additional-200-papers"></a>
-## Additional literature · 200 papers
+
+## Additional literature expansion · 200 papers
 
 <p align="center">
-  <a href="docs/additional-papers-200.md"><img src="https://img.shields.io/badge/Additional%20papers-200-7C3AED?style=flat-square" alt="200 additional papers"></a>
-  <img src="https://img.shields.io/badge/External-79-4C78A8?style=flat-square" alt="79 external-consistency papers">
-  <img src="https://img.shields.io/badge/Internal-64-59A14F?style=flat-square" alt="64 internal-consistency papers">
-  <img src="https://img.shields.io/badge/Normative-57-E15759?style=flat-square" alt="57 normative-consistency papers">
+  <img src="https://img.shields.io/badge/Additional%20papers-200-2563EB?style=flat-square" alt="200 additional paper records">
+  <img src="https://img.shields.io/badge/External-79-4c78a8?style=flat-square" alt="79 external-consistency papers">
+  <img src="https://img.shields.io/badge/Internal-64-59a14f?style=flat-square" alt="64 internal-consistency papers">
+  <img src="https://img.shields.io/badge/Normative-57-e15759?style=flat-square" alt="57 normative-consistency papers">
 </p>
 
-A second literature pass adds **200 further papers** relevant to consistency in diffusion-based visual generation. This batch remains separate from the earlier 81-paper register so that provenance and counting stay explicit.
+This expansion adds **200 further papers** identified in the 2025–2026 literature review, beyond the existing 81-paper recent register. Papers are assigned a single **primary consistency relation** for counting, while cross-relation relevance is retained in the descriptions. The batch contains **79 External**, **64 Internal**, and **57 Normative** papers.
 
-| Primary relation | Papers | Main coverage |
-|:--|--:|:--|
-| **External consistency** | **79** | Compositional prompting, structural control, image/video editing, visual text, virtual try-on, and editing evaluation |
-| **Internal consistency** | **64** | Identity preservation, multi-view geometry, temporal coherence, multi-shot storytelling, and persistent scene memory |
-| **Normative consistency** | **57** | Preference and reward learning, concept erasure and retention, safety, fairness, and physical plausibility |
+> **Curation note.** The batch was checked against the existing recent register and historical resource list using normalized titles, known aliases, canonical paper URLs, and available arXiv identifiers. This is an editorial literature expansion, not a claim that all historical resource entries are unique publications. Proceedings years are used for conference papers; first-submission years are used for arXiv-only records.
 
-**[Browse the complete 200-paper catalog →](docs/additional-papers-200.md)**
+### Representative additions
 
-The catalog is split into smaller pages for faster GitHub rendering: [Part 1](docs/additional-papers-200/part-01.md) · [Part 2](docs/additional-papers-200/part-02.md) · [Part 3](docs/additional-papers-200/part-03.md) · [Part 4](docs/additional-papers-200/part-04.md) · [Part 5](docs/additional-papers-200/part-05.md) · [Part 6](docs/additional-papers-200/part-06.md) · [Part 7](docs/additional-papers-200/part-07.md) · [Part 8](docs/additional-papers-200/part-08.md).
+| Relation | Paper | Consistency focus |
+|---|---|---|
+| **External** | **[EditVid](https://arxiv.org/abs/2609.04190)** · 2026 | Combines sparse causal memory, correspondence-based feature injection, and latent blending for identity retention and edit locality in video editing. |
+| **External** | **[I2I-Bench](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_I2I-Bench_A_Comprehensive_Benchmark_Suite_for_Image-to-Image_Editing_Models_CVPR_2026_paper.html)** · CVPR 2026 | Evaluates single- and multi-image editing with decoupled instruction-following and preservation criteria. |
+| **External** | **[GlyphPrinter](https://openaccess.thecvf.com/content/CVPR2026/html/Shuai_GlyphPrinter_Region-Grouped_Direct_Preference_Optimization_for_Glyph-Accurate_Visual_Text_Rendering_CVPR_2026_paper.html)** · CVPR 2026 | Uses region-grouped preference optimization for fine-grained glyph-accurate visual text rendering. |
+| **Internal** | **[OctWorld](https://arxiv.org/abs/2609.03919)** · 2026 | Maintains an adaptive octree-based geometric memory to preserve scenes when long camera trajectories revisit earlier regions. |
+| **Internal** | **[Gloria](https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Gloria_Consistent_Character_Video_Generation_via_Content_Anchors_CVPR_2026_paper.html)** · CVPR 2026 | Uses character-centric content anchors to stabilize identity and appearance across generated video views and time. |
+| **Internal** | **[MV-Adapter](https://openaccess.thecvf.com/content/ICCV2025/html/Huang_MV-Adapter_Multi-View_Consistent_Image_Generation_Made_Easy_ICCV_2025_paper.html)** · ICCV 2025 | Adds geometric attention and camera/geometry conditioning for consistent multi-view synthesis. |
+| **Normative** | **[EMMA](https://openaccess.thecvf.com/content/CVPR2026/html/Wei_EMMA_Concept_Erasure_Benchmark_with_Comprehensive_Semantic_Metrics_and_Diverse_CVPR_2026_paper.html)** · CVPR 2026 | Evaluates concept erasure under implicit prompts, similar non-target concepts, and demographic-bias diagnostics. |
+| **Normative** | **[PSIVG](https://openaccess.thecvf.com/content/CVPR2026/html/Foo_Physical_Simulator_In-the-Loop_Video_Generation_CVPR_2026_paper.html)** · CVPR 2026 | Places a physical simulator in the generation loop to improve motion plausibility and correspondence-based texture consistency. |
+| **Normative** | **[MapReduce LoRA](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_MapReduce_LoRA_Advancing_the_Pareto_Front_in_Multi-Preference_Optimization_for_CVPR_2026_paper.html)** · CVPR 2026 | Combines reward-specific LoRA experts to reduce conflicts among multiple visual-generation preferences. |
 
-> **Counting note.** The earlier dated register contains 81 papers and this second pass contains 200 papers. The historical resource collection below mixes papers, benchmarks, datasets, evaluators, and topic placeholders, so its resource count should not be added to 81 + 200 as a deduplicated publication total.
+The full 200-paper catalog is maintained separately from the main README so the project remains readable as the literature map grows.
 
 <!-- END ADDITIONAL-200-2026-09-16 -->
+
 
 ---
 
