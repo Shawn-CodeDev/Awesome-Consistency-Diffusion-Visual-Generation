@@ -69,9 +69,9 @@ Its answer is a relation-based taxonomy of **external**, **internal**, and **nor
 4. **Machine-readable resource map** — provides structured CSV and BibTeX files for maintenance, comparison, and downstream analysis.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Resources-355-4c78a8?style=flat-square" alt="355 resources">
+  <img src="https://img.shields.io/badge/Resources-356-4c78a8?style=flat-square" alt="356 resources">
   <img src="https://img.shields.io/badge/Methods-225-59a14f?style=flat-square" alt="225 methods">
-  <img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-70-f28e2b?style=flat-square" alt="70 benchmarks and evaluators">
+  <img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-71-f28e2b?style=flat-square" alt="71 benchmarks and evaluators">
   <img src="https://img.shields.io/badge/Datasets%20%26%20Data-60-e15759?style=flat-square" alt="60 datasets and data resources">
 </p>
 
@@ -89,7 +89,7 @@ Its answer is a relation-based taxonomy of **external**, **internal**, and **nor
 
 | Relation | Agreement target | Representative failures | Typical settings | Resources |
 |---|---|---|---|---:|
-| **External consistency** | Prompts, references, layouts, masks, poses, controls, and editing instructions | Prompt omission, attribute-binding error, counting error, control mismatch, over-editing | Text-to-image generation, structural control, editing, inpainting, virtual try-on, typography | **125** |
+| **External consistency** | Prompts, references, layouts, masks, poses, controls, and editing instructions | Prompt omission, attribute-binding error, counting error, control mismatch, over-editing | Text-to-image generation, structural control, editing, inpainting, virtual try-on, typography | **126** |
 | **Internal consistency** | Generated subjects, views, frames, shots, instances, and story states | Identity drift, view inconsistency, temporal flicker, state forgetting, narrative discontinuity | Personalization, multi-view/3D generation, video generation, story visualization | **123** |
 | **Normative consistency** | Preference, safety, fairness, physical plausibility, commonsense, and causal/world-state criteria | Low preference, unsafe output, benign-capability loss, physical violation, causal failure | Preference optimization, safety editing, concept erasure, physical and world-model evaluation | **107** |
 
@@ -377,10 +377,10 @@ The collection is designed as a **topic-oriented literature map**, not a flat bi
 
 | Consistency relation | Methods | Benchmarks & Evaluators | Datasets & Data | Total | Browse |
 |---|---:|---:|---:|---:|---:|
-| **External consistency** | 85 | 20 | 20 | **125** | [Open section](#external-consistency) |
+| **External consistency** | 85 | 21 | 20 | **126** | [Open section](#external-consistency) |
 | **Internal consistency** | 83 | 20 | 20 | **123** | [Open section](#internal-consistency) |
 | **Normative consistency** | 57 | 30 | 20 | **107** | [Open section](#normative-consistency) |
-| **Collection** | **225** | **70** | **60** | **355** | — |
+| **Collection** | **225** | **71** | **60** | **356** | — |
 
 ### Entry format
 
@@ -402,15 +402,15 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
 
 <p align="center">
   <a href="#external-methods"><img src="https://img.shields.io/badge/Methods-85-4c78a8?style=flat-square" alt="85 methods"></a>
-  <a href="#external-benchmarks"><img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-20-4c78a8?style=flat-square" alt="20 benchmarks and evaluators"></a>
+  <a href="#external-benchmarks"><img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-21-4c78a8?style=flat-square" alt="21 benchmarks and evaluators"></a>
   <a href="#external-datasets"><img src="https://img.shields.io/badge/Datasets%20%26%20Data-20-4c78a8?style=flat-square" alt="20 datasets and data resources"></a>
-  <img src="https://img.shields.io/badge/Total-125-4c78a8?style=flat-square" alt="125 total resources">
+  <img src="https://img.shields.io/badge/Total-126-4c78a8?style=flat-square" alt="126 total resources">
 </p>
 
 | Resource type | Description | Jump |
 |---|---|---:|
 | **Methods** | Architectures, objectives, inference procedures, and intervention mechanisms. | [Browse 85](#external-methods) |
-| **Benchmarks & Evaluators** | Test suites, metrics, learned scorers, and evaluation protocols. | [Browse 20](#external-benchmarks) |
+| **Benchmarks & Evaluators** | Test suites, metrics, learned scorers, and evaluation protocols. | [Browse 21](#external-benchmarks) |
 | **Datasets & Data Resources** | Training corpora, annotations, prompt sets, and diagnostic data. | [Browse 20](#external-datasets) |
 
 <a id="external-methods"></a>
@@ -659,12 +659,12 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
 <a id="external-benchmarks"></a>
 ### Benchmarks & Evaluators
 
-<p><sub><b>20 resources</b> organized into 4 focused topics.</sub></p>
+<p><sub><b>21 resources</b> organized into 4 focused topics.</sub></p>
 
 | Topic | Coverage |
 |---|---:|
 | [General prompt fidelity & composition](#external-benchmarks-general-prompt-fidelity-and-composition) | **11** |
-| [Editing & learned-concept evaluation](#external-benchmarks-editing-and-learned-concept-evaluation) | **2** |
+| [Editing & learned-concept evaluation](#external-benchmarks-editing-and-learned-concept-evaluation) | **3** |
 | [Fine-grained semantic diagnostics](#external-benchmarks-fine-grained-semantic-diagnostics) | **5** |
 | [Domain-specific control evaluation](#external-benchmarks-domain-specific-control-evaluation) | **2** |
 
@@ -701,7 +701,7 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
 ---
 
 <a id="external-benchmarks-editing-and-learned-concept-evaluation"></a>
-#### Editing & learned-concept evaluation <sup>2</sup>
+#### Editing & learned-concept evaluation <sup>3</sup>
 
 <sub>Evaluation of edit preservation, instruction compliance, and reusable concept learning.</sub>
 
@@ -709,6 +709,8 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
   Benchmarks text-guided image inpainting and edit preservation.
 - **[ConceptBed](https://github.com/ConceptBed/evaluations)** <sub>arXiv / venue TBD</sub>  
   Evaluates concept learning and reusable concept binding.
+- **[JLD](https://arxiv.org/abs/2610.05967)** <sub>arXiv 2026 · preprint</sub>  
+  Full-reference perceptual distance using Jacobian-lens projections of frozen DINOv2 features; supports reference-fidelity and reconstruction diagnostics. Requires spatially aligned references and does not independently measure prompt adherence, identity persistence, or narrative coherence. The paper also reports JLD-video with VideoMAE spatiotemporal features. [Code](https://github.com/shreshthsaini/jld)
 
 <p align="right"><a href="#external-benchmarks">Back to benchmarks & evaluators ↑</a></p>
 
@@ -860,7 +862,7 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
 
 <p align="center">
   <a href="#internal-methods"><img src="https://img.shields.io/badge/Methods-83-7b61a8?style=flat-square" alt="83 methods"></a>
-  <a href="#internal-benchmarks"><img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-20-7b61a8?style=flat-square" alt="20 benchmarks and evaluators"></a>
+  <a href="#internal-benchmarks"><img src="https://img.shields.io/badge/Benchmarks%20%26%20Evaluators-20-7b61a8?style=flat-square" alt="21 benchmarks and evaluators"></a>
   <a href="#internal-datasets"><img src="https://img.shields.io/badge/Datasets%20%26%20Data-20-7b61a8?style=flat-square" alt="20 datasets and data resources"></a>
   <img src="https://img.shields.io/badge/Total-123-7b61a8?style=flat-square" alt="123 total resources">
 </p>
@@ -1182,6 +1184,8 @@ Each resource is presented with a prominent title, compact venue/year metadata, 
 
 <a id="internal-benchmarks-editing-tracking-and-feature-based-metrics"></a>
 #### Editing, tracking & feature-based metrics <sup>6</sup>
+
+For aligned-reference perceptual fidelity, see [JLD under External evaluators](#external-benchmarks-editing-and-learned-concept-evaluation); this cross-reference is not counted as an additional resource.
 
 <sub>Preservation metrics based on editing stability, CLIP/DINO features, face identity, and LPIPS.</sub>
 
