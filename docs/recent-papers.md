@@ -5,8 +5,8 @@
 <a id="recent-literature"></a>
 ## Recent literature · 2025–2026
 
-**81 distinct papers · 46 first posted in 2026 · 35 first posted in 2025**  
-Research snapshot: **2026-09-16**. Dates below are first arXiv submission dates, not conference publication dates.
+**95 distinct papers · 60 first posted in 2026 · 35 first posted in 2025**  
+Research snapshot: **2026-11-04**. Dates below are first arXiv submission dates, not conference publication dates.
 
 [JSON](../resources/recent_papers.json) · [CSV](../resources/recent_papers.csv) · [BibTeX, abbreviated authors](../resources/recent_papers.bib) · [Evidence register](../docs/recent-papers.md#evidence-register) · [Scope and limitations](../docs/research-notes.md)
 
@@ -14,9 +14,9 @@ Research snapshot: **2026-09-16**. Dates below are first arXiv submission dates,
 
 | Primary relation | Papers in this update | Browse |
 |:--|--:|:--|
-| **External** | 30 | [External consistency](#recent-external) |
-| **Internal** | 25 | [Internal consistency](#recent-internal) |
-| **Normative** | 26 | [Normative consistency](#recent-normative) |
+| **External** | 35 | [External consistency](#recent-external) |
+| **Internal** | 30 | [Internal consistency](#recent-internal) |
+| **Normative** | 30 | [Normative consistency](#recent-normative) |
 
 Within each topic, the most recently posted papers appear first. **Paper titles link to the original arXiv record**; optional code/project links are author-provided discovery links, not a deployment or availability guarantee.
 
@@ -27,6 +27,8 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-18 | **[MT Forcing](https://arxiv.org/abs/2610.25404)**<br><sub>Method · Image · also Internal</sub> | Combines single-turn distribution-matching supervision of self-rollouts with teacher-forcing guidance to reduce quality drift and preserve content across editing turns. |
+| 2026-10-17 | **[LayerEditor](https://arxiv.org/abs/2610.24738)**<br><sub>Method + Dataset + Benchmark · Image · also Internal</sub> | Couples instruction editing with ordered RGBA-layer generation and compositional distillation to preserve editing fidelity and enable localized reusable layers. |
 | 2026-08-30 | **[Discrete Diffusion Bridges](https://arxiv.org/abs/2608.29997)**<br><sub>Method · Image · also Internal</sub><br>[Code](https://github.com/HKU-HealthAI/DDB) | Uses source-anchored corruption and an information-guided schedule to balance semantic editing with structural preservation in discrete diffusion. |
 | 2026-01-09 | **[Generalized multi-image editing](https://arxiv.org/abs/2601.05572)**<br><sub>Method + Benchmark · Image · also Internal</sub> | Disambiguates multiple input images through latent separators and image-index encoding; evaluates cross-image editing integration. |
 | 2025-06-23 | **[OmniGen2](https://arxiv.org/abs/2506.18871)**<br><sub>Method + Benchmark · Image · also Internal</sub><br>[Code](https://github.com/VectorSpaceLab/OmniGen2) · [Project](https://vectorspacelab.github.io/OmniGen2) | Unifies generation, editing and in-context tasks; introduces OmniContext to evaluate reference-conditioned subject consistency. |
@@ -42,6 +44,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-31 | **[ODC](https://arxiv.org/abs/2611.00819)**<br><sub>Method · Image</sub> | Diagnoses prompt-image drift from an initial sample and refines text conditioning through orthogonal correction for a second generation pass. |
 | 2026-05-27 | **[BiDPO / BiComp](https://arxiv.org/abs/2605.28615)**<br><sub>Method + Dataset · Image · also Normative</sub> | Combines image-text preference optimization, compositional preference data and region-level guidance for prompt fidelity. |
 | 2026-03-23 | **[SpatialReward / SpatRelBench](https://arxiv.org/abs/2603.22228)**<br><sub>Evaluator + Benchmark · Image · also Normative</sub> | Grounds spatial reward judgments in decomposed prompts and detected objects; introduces SpatRelBench for fine-grained spatial evaluation. |
 | 2026-03-06 | **[StruVis](https://arxiv.org/abs/2603.06032)**<br><sub>Method · Image</sub> | Uses structured visual representations as intermediate reasoning states to improve prompt interpretation before image generation. |
@@ -65,11 +68,20 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-19 | **[Mise-en-Video](https://arxiv.org/abs/2610.26801)**<br><sub>Method + Dataset · Video · also Internal</sub> | Combines per-shot 3D layout guidance with hierarchical attention to jointly support controllable staging and cross-shot narrative consistency. |
 | 2026-03-30 | **[MMFace-DiT](https://arxiv.org/abs/2603.29029)**<br><sub>Method · Image</sub><br>[Project](https://vcbsl.github.io/MMFace-DiT/) | Fuses semantic text and spatial mask or sketch conditions within a dual-stream diffusion transformer for controllable face synthesis. |
 | 2025-12-15 | **[Beyond the Visible](https://arxiv.org/abs/2512.13392)**<br><sub>Method · Video · also Internal</sub><br>[Project](https://anranqi.github.io/beyondvisible.github.io/) | Separates articulated motion from appearance editing to control newly revealed regions in image-to-video generation. |
 | 2025-03-13 | **[CameraCtrl II](https://arxiv.org/abs/2503.10592)**<br><sub>Method · Video · also Internal</sub> | Extends camera-controlled video generation toward wider scene exploration while preserving dynamic content and inter-clip continuity. |
 | 2025-03-11 | **[OminiControl2](https://arxiv.org/abs/2503.08280)**<br><sub>Method · Image · also Internal</sub> | Compresses condition tokens and reuses conditional features across denoising steps for efficient multi-condition image generation. |
 | 2025-01-07 | **[Diffusion as Shader](https://arxiv.org/abs/2501.03847)**<br><sub>Method · Video / 3D · also Internal</sub><br>[Code](https://github.com/IGL-HKUST/DiffusionAsShader) · [Project](https://igl-hkust.github.io/das/) | Uses 3D tracking videos as a common control interface for camera, motion and object manipulation with temporal correspondence. |
+
+[Back to recent-literature navigation](#recent-literature)
+
+#### Reference-conditioned video generation
+
+| First posted | Paper and resources | Consistency focus |
+|:--|:--|:--|
+| 2026-10-01 | **[MemComposer](https://arxiv.org/abs/2610.01884)**<br><sub>Method · Video · also Internal</sub> | MemComposer builds entity-centric memory from user footage and retrieves shot-specific references to ground generated B-roll in collection identities, settings and style. |
 
 [Back to recent-literature navigation](#recent-literature)
 
@@ -114,6 +126,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-01 | **[DynSC-Eval](https://arxiv.org/abs/2610.01052)**<br><sub>Evaluator + Method · Video · also Normative</sub> | DynSC-Eval tracks changing subject sets and diagnoses local continuity and global identity; its signals also guide DiffusionNFT post-training. |
 | 2026-06-14 | **[CogCanvas](https://arxiv.org/abs/2606.15867)**<br><sub>Benchmark · Image · also External</sub> | Jointly tests multi-person identity, per-subject object and fashion binding, background fidelity and interaction plausibility. |
 
 [Back to recent-literature navigation](#recent-literature)
@@ -122,6 +135,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-23 | **[CompMVR](https://arxiv.org/abs/2610.32800)**<br><sub>Method + Dataset · Image / 3D · also External</sub> | Jointly restores compressed multiview observations with compression priors and cross-view correspondences to preserve geometry for reconstruction and novel-view synthesis. |
 | 2026-09-09 | **[StreetDiff / Street360](https://arxiv.org/abs/2609.09890)**<br><sub>Method + Dataset · Image / 3D · also External</sub> | Uses panorama-perspective alignment constraints during denoising to preserve urban-scene layout across rotated views. |
 | 2026-07-19 | **[HarmoHOI](https://arxiv.org/abs/2607.17097)**<br><sub>Method · Video / 3D · also Normative</sub><br>[Project](https://droliven.github.io/HarmoHOI_project) | Jointly models synchronized interaction videos and globally aligned 3D point tracks to couple appearance, motion and multi-view geometry. |
 | 2026-07-06 | **[MV-Forcing](https://arxiv.org/abs/2607.05376)**<br><sub>Method · Video / 3D</sub><br>[Project](https://galfiebelman.github.io/mv-forcing/) | Bridges view-wise and temporal autoregression with reconstructed 4D geometry and spatio-temporal self-forcing. |
@@ -136,6 +150,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-12 | **[REEL](https://arxiv.org/abs/2610.16632)**<br><sub>Method + Dataset + Benchmark · Video · also External</sub> | Trains a generator-agnostic visual-memory planner through supervised and multi-shot reinforcement learning; REEL-Bench tests identity persistence and intended state changes. |
 | 2026-05-26 | **[ReCA / MSVE-Bench](https://arxiv.org/abs/2605.26525)**<br><sub>Method + Benchmark · Video · also External</sub><br>[Project](https://reca.vmv.re) | Allocates planning and generation context hierarchically to preserve observed state while extending a source clip into multiple shots. |
 | 2026-05-19 | **[MSAVBench](https://arxiv.org/abs/2605.20183)**<br><sub>Benchmark · Video / Audio · also External</sub> | Evaluates video, audio, shots and references with adaptive segmentation and tool-grounded evidence for multi-shot audio-video generation. |
 | 2026-05-14 | **[EntityBench / EntityMem](https://arxiv.org/abs/2605.15199)**<br><sub>Benchmark + Method · Video · also External</sub><br>[Code](https://github.com/Catherine-R-He/EntityBench/) | Tracks recurring characters, objects and locations across long shot sequences, with fidelity-gated scoring and a persistent entity-memory baseline. |
@@ -152,6 +167,8 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-05 | **[Keepsake](https://arxiv.org/abs/2610.06588)**<br><sub>Method · Video · also External</sub> | Uses a pose-appearance graph to reassess redundant observations and retain distinctive spatial memories under a fixed capacity without retraining the host generator. |
+| 2026-10-01 | **[MosaiChunk](https://arxiv.org/abs/2610.02153)**<br><sub>Method + Benchmark · Video · also External</sub> | Learns a lightweight router over historical spatial-temporal KV entries for fixed-budget memory; RememBench evaluates scene revisits in text- and camera-controlled generation. |
 | 2025-10-02 | **[Self-Forcing++](https://arxiv.org/abs/2510.02283)**<br><sub>Method · Video</sub><br>[Project](https://self-forcing-plus-plus.github.io/) | Supervises sampled segments of self-generated long videos to reduce error accumulation beyond short-teacher training horizons. |
 | 2025-09-26 | **[LongLive](https://arxiv.org/abs/2509.22622)**<br><sub>Method · Video · also External</sub> | Combines long-rollout training, prompt-aware cache refresh and frame sinks to preserve consistency during interactive long-video generation. |
 | 2025-06-09 | **[Self Forcing](https://arxiv.org/abs/2506.08009)**<br><sub>Method · Video</sub><br>[Project](https://self-forcing.github.io/) | Trains on self-generated context to reduce exposure bias; long extrapolation still requires separate consistency evaluation. |
@@ -165,6 +182,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-01 | **[iADD](https://arxiv.org/abs/2610.01789)**<br><sub>Method · Image · also External</sub> | Studies diversity effects of timestep-restricted policy updates and uses incremental Feynman-Kac training to balance reward alignment and diversity. |
 | 2026-07-07 | **[D2PO](https://arxiv.org/abs/2607.06609)**<br><sub>Method · Image</sub> | Optimizes sampler timesteps and guidance weights through dynamic preferences rather than fixed teacher-regression targets. |
 | 2026-06-25 | **[Qwen-Image-2.0-RL](https://arxiv.org/abs/2606.27608)**<br><sub>Method · Image · also External/Internal</sub> | Uses task-specific rewards, GRPO and on-policy distillation to align image generation and editing while preserving identity. |
 | 2026-05-08 | **[Diffusion-APO](https://arxiv.org/abs/2605.07503)**<br><sub>Method · Video · also External</sub> | Aligns preference-training noise with inference trajectories and supports several online and offline video-alignment stages. |
@@ -182,6 +200,7 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-01 | **[CEASE](https://arxiv.org/abs/2610.01989)**<br><sub>Method · Image</sub> | CEASE constrains closed-form edits using replacement-token invariance and past-update subspaces to limit interference and preserve unrelated generations during continual concept erasure. |
 | 2026-09-11 | **[GRACE](https://arxiv.org/abs/2609.12731)**<br><sub>Method · Image</sub> | Combines sensitive-subspace adapters, safe anchors and dynamic gating to reduce undesired concepts while limiting semantic drift. |
 | 2026-05-31 | **[SafeGen-Bench](https://arxiv.org/abs/2606.01481)**<br><sub>Benchmark · Video · also External/Internal</sub> | Tests unsafe behaviors that can emerge from jointly benign-looking image and text inputs in conditional video generation. |
 | 2026-05-27 | **[OCE](https://arxiv.org/abs/2605.28902)**<br><sub>Method · Image</sub><br>[Code](https://github.com/HansSunY/OCE) | Uses multiplicative orthogonal parameter transformations to separate concept removal from broader generative-capability preservation. |
@@ -207,6 +226,8 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 
 | First posted | Paper and resources | Consistency focus |
 |:--|:--|:--|
+| 2026-10-19 | **[PVBench](https://arxiv.org/abs/2610.26711)**<br><sub>Benchmark + Evaluator · Video · also External/Internal</sub> | Measures generated-video physical plausibility using object-level geometry, kinematics and conservation-law diagnostics alongside semantic and temporal criteria. |
+| 2026-10-06 | **[World Models’ Last Exam in Physics](https://arxiv.org/abs/2610.08791)**<br><sub>Benchmark + Evaluator · Video · also Internal</sub> | Pairs controlled image-conditioned video tasks with observability screening and task-specific physical measurements across six physical domains, without reference videos. |
 | 2026-06-25 | **[PhyEditBench](https://arxiv.org/abs/2606.26551)**<br><sub>Benchmark + Method · Image / Video · also External</sub><br>[Code](https://github.com/Previsior/PhyEditBench) | Uses real physical transitions and anti-physics cases to diagnose physical understanding in instruction-based image editing. |
 | 2026-05-11 | **[PhyGround / PhyJudge-9B](https://arxiv.org/abs/2605.10806)**<br><sub>Benchmark + Evaluator · Video · also Internal</sub><br>[Project](https://phyground.github.io/) | Grounds physical evaluation in observable law-specific questions, controlled human annotations and a specialized visual-language judge. |
 | 2026-03-20 | **[Physion-Eval](https://arxiv.org/abs/2603.19607)**<br><sub>Benchmark + Dataset · Video · also Internal</sub><br>[Project](https://huggingface.co/datasets/PhysionLabs/Physion-Eval) | Provides expert reasoning traces and temporally localized physical-glitch annotations for diagnosing generated-video realism failures. |
@@ -221,6 +242,146 @@ Within each topic, the most recently posted papers appear first. **Paper titles 
 ## Evidence register
 
 This register preserves full titles and the exact primary-source identifiers used in this update. The recorded author is the first author only. Short names in the tables are navigation labels, not replacement bibliographic titles.
+
+### 2611.00819 · ODC
+
+**ODC: Orthogonal Drift Correction for Improved Text-to-Image Semantic Alignment at Inference**
+
+First author: Kamali, Kasra. First submitted: 2026-10-31. Source: [arXiv:2611.00819](https://arxiv.org/abs/2611.00819). Checked: 2026-11-04.
+
+Relation: **External**; topic: Compositionality and spatial grounding. Secondary relations: none recorded.
+
+Diagnoses prompt-image drift from an initial sample and refines text conditioning through orthogonal correction for a second generation pass.
+
+### 2610.32800 · CompMVR
+
+**CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction**
+
+First author: Kim, Dong-hwi. First submitted: 2026-10-23. Source: [arXiv:2610.32800](https://arxiv.org/abs/2610.32800). Checked: 2026-11-04.
+
+Relation: **Internal**; topic: Multi-view and geometric consistency. Secondary relations: External.
+
+Jointly restores compressed multiview observations with compression priors and cross-view correspondences to preserve geometry for reconstruction and novel-view synthesis.
+
+### 2610.26801 · Mise-en-Video
+
+**Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation**
+
+First author: Zou, Yingshuang. First submitted: 2026-10-19. Source: [arXiv:2610.26801](https://arxiv.org/abs/2610.26801). Checked: 2026-11-04.
+
+Relation: **External**; topic: Structural and camera control. Secondary relations: Internal.
+
+Combines per-shot 3D layout guidance with hierarchical attention to jointly support controllable staging and cross-shot narrative consistency.
+
+### 2610.26711 · PVBench
+
+**PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements**
+
+First author: Chen, Kaiwei. First submitted: 2026-10-19. Source: [arXiv:2610.26711](https://arxiv.org/abs/2610.26711). Checked: 2026-11-04.
+
+Relation: **Normative**; topic: Physical and causal evaluation. Secondary relations: External, Internal.
+
+Measures generated-video physical plausibility using object-level geometry, kinematics and conservation-law diagnostics alongside semantic and temporal criteria.
+
+### 2610.25404 · MT Forcing
+
+**MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion**
+
+First author: Chen, Houyuan. First submitted: 2026-10-18. Source: [arXiv:2610.25404](https://arxiv.org/abs/2610.25404). Checked: 2026-11-04.
+
+Relation: **External**; topic: Image editing and in-context generation. Secondary relations: Internal.
+
+Combines single-turn distribution-matching supervision of self-rollouts with teacher-forcing guidance to reduce quality drift and preserve content across editing turns.
+
+### 2610.24738 · LayerEditor
+
+**Editing Images into Reusable Layers via Compositional Edit-Prior Distillation**
+
+First author: Xue, Wen. First submitted: 2026-10-17. Source: [arXiv:2610.24738](https://arxiv.org/abs/2610.24738). Checked: 2026-11-04.
+
+Relation: **External**; topic: Image editing and in-context generation. Secondary relations: Internal.
+
+Couples instruction editing with ordered RGBA-layer generation and compositional distillation to preserve editing fidelity and enable localized reusable layers.
+
+### 2610.16632 · REEL
+
+**REEL: Learning to Retrieve, Evaluate, and Evolve Visual Memory for Any Long-Horizon Multi-Shot Video Generation**
+
+First author: Xu, Hang. First submitted: 2026-10-12. Source: [arXiv:2610.16632](https://arxiv.org/abs/2610.16632). Checked: 2026-11-04.
+
+Relation: **Internal**; topic: Multi-shot narratives and persistent memory. Secondary relations: External.
+
+Trains a generator-agnostic visual-memory planner through supervised and multi-shot reinforcement learning; REEL-Bench tests identity persistence and intended state changes.
+
+### 2610.08791 · World Models’ Last Exam in Physics
+
+**World Models' Last Exam in Physics**
+
+First author: Gao, Mingju. First submitted: 2026-10-06. Source: [arXiv:2610.08791](https://arxiv.org/abs/2610.08791). Checked: 2026-11-04.
+
+Relation: **Normative**; topic: Physical and causal evaluation. Secondary relations: Internal.
+
+Pairs controlled image-conditioned video tasks with observability screening and task-specific physical measurements across six physical domains, without reference videos.
+
+### 2610.06588 · Keepsake
+
+**Keepsake: Selective Spatial Memory for Long-Horizon Video Generation**
+
+First author: Radi, Abdul Mohaimen Al. First submitted: 2026-10-05. Source: [arXiv:2610.06588](https://arxiv.org/abs/2610.06588). Checked: 2026-11-04.
+
+Relation: **Internal**; topic: Long-horizon video generation. Secondary relations: External.
+
+Uses a pose-appearance graph to reassess redundant observations and retain distinctive spatial memories under a fixed capacity without retraining the host generator.
+
+### 2610.02153 · MosaiChunk
+
+**MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation**
+
+First author: Zhang, Yiwen. First submitted: 2026-10-01. Source: [arXiv:2610.02153](https://arxiv.org/abs/2610.02153). Checked: 2026-11-04.
+
+Relation: **Internal**; topic: Long-horizon video generation. Secondary relations: External.
+
+Learns a lightweight router over historical spatial-temporal KV entries for fixed-budget memory; RememBench evaluates scene revisits in text- and camera-controlled generation.
+
+### 2610.01989 · CEASE
+
+**Continual Concept Erasure in Diffusion Models by Suppressing Cross-Edit Interference**
+
+First author: Wu, Yongliang. First submitted: 2026-10-01. Source: [arXiv:2610.01989](https://arxiv.org/abs/2610.01989). Checked: 2026-11-04.
+
+Relation: **Normative**; topic: Safety, erasure and capability retention. Secondary relations: none recorded.
+
+CEASE constrains closed-form edits using replacement-token invariance and past-update subspaces to limit interference and preserve unrelated generations during continual concept erasure.
+
+### 2610.01884 · MemComposer
+
+**Memory-Guided B-Roll Generation from User Video Collections**
+
+First author: Ham, Cusuh. First submitted: 2026-10-01. Source: [arXiv:2610.01884](https://arxiv.org/abs/2610.01884). Checked: 2026-11-04.
+
+Relation: **External**; topic: Reference-conditioned video generation. Secondary relations: Internal.
+
+MemComposer builds entity-centric memory from user footage and retrieves shot-specific references to ground generated B-roll in collection identities, settings and style.
+
+### 2610.01789 · iADD
+
+**iADD: Improving Alignment and Diversity in Diffusion Policy Optimization**
+
+First author: Neupane, Ashok Prasad. First submitted: 2026-10-01. Source: [arXiv:2610.01789](https://arxiv.org/abs/2610.01789). Checked: 2026-11-04.
+
+Relation: **Normative**; topic: Preference alignment and reward learning. Secondary relations: External.
+
+Studies diversity effects of timestep-restricted policy updates and uses incremental Feynman-Kac training to balance reward alignment and diversity.
+
+### 2610.01052 · DynSC-Eval
+
+**Towards Subject Consistency over Dynamic Subject Sets in Video Generation**
+
+First author: Zhang, Tongcheng. First submitted: 2026-10-01. Source: [arXiv:2610.01052](https://arxiv.org/abs/2610.01052). Checked: 2026-11-04.
+
+Relation: **Internal**; topic: Subject and identity evaluation. Secondary relations: Normative.
+
+DynSC-Eval tracks changing subject sets and diagnoses local continuity and global identity; its signals also guide DiffusionNFT post-training.
 
 ### 2609.12731 · GRACE
 

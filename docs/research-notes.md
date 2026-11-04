@@ -4,9 +4,13 @@
 
 ## Research snapshot
 
-The **2026-09-16** register contains **81 distinct arXiv papers**: 46 first submitted in 2026 and 35 in 2025. Editorial primary relations are External (30), Internal (25) and Normative (26). A method, dataset and benchmark appearing in one paper are counted once, not as independent publications.
+The **2026-11-04** register contains **95 distinct arXiv papers**: 60 first submitted in 2026 and 35 in 2025. Editorial primary relations are External (35), Internal (30) and Normative (30). The incremental pass adds 14 papers first posted after the previous September 16 snapshot. Earlier entries retain their original checked-on dates; they were not silently re-certified. A method and associated benchmark in one paper count once.
 
 The register covers image and multi-image editing, compositional and spatial grounding, typography, structural and camera control, video editing, subject identity, multi-view geometry, multi-shot narratives, persistent memory, long video, preference learning, safety and concept erasure, capability retention, physics and causal evaluation. Related unified or autoregressive systems are included only for their relevant generation mechanisms or diagnostics; not every entry is claimed to be a pure diffusion model. Consistency refers to generated content, not only fast Consistency Models.
+
+## November 4 incremental search
+
+The search focused on September 17–November 4, 2026 and covered editing and prompt alignment, persistent identity and video memory, and physical plausibility and reward alignment. Fourteen new arXiv primary-source records were retained after identifier/title checks against the existing catalog and Markdown collection. AdvDPO (Electronics, October 25) is additionally included in the topic-oriented normative methods list and selected bibliography, because the dated catalog schema uses arXiv identifiers. Its title, authors, publication date and scope were checked against the publisher-indexed abstract. This is a curated search, not a claim of exhaustive coverage. The diffusion-video reasoning paper arXiv:2609.36826 was excluded because task-prediction consensus is not a direct fit to generated-content consistency. Optional code links were omitted when not verified. The earlier integration report below describes the historical September pass; current additions are recorded in `literature-update-2026-11-04.json`.
 
 ## Evidence and limitations
 

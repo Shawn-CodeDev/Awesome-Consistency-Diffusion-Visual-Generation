@@ -2019,5 +2019,353 @@
     "checked_on": "2026-09-16",
     "publication_status": "arXiv record; proceedings status not audited",
     "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.25404",
+    "name": "MT Forcing",
+    "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+    "first_submitted": "2026-10-18",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Chen, Houyuan",
+    "description": "Combines single-turn distribution-matching supervision of self-rollouts with teacher-forcing guidance to reduce quality drift and preserve content across editing turns.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.25404",
+    "source_url": "https://arxiv.org/abs/2610.25404",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.24738",
+    "name": "LayerEditor",
+    "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+    "first_submitted": "2026-10-17",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Xue, Wen",
+    "description": "Couples instruction editing with ordered RGBA-layer generation and compositional distillation to preserve editing fidelity and enable localized reusable layers.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.24738",
+    "source_url": "https://arxiv.org/abs/2610.24738",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.26711",
+    "name": "PVBench",
+    "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+    "first_submitted": "2026-10-19",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Chen, Kaiwei",
+    "description": "Measures generated-video physical plausibility using object-level geometry, kinematics and conservation-law diagnostics alongside semantic and temporal criteria.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.26711",
+    "source_url": "https://arxiv.org/abs/2610.26711",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.08791",
+    "name": "World Models’ Last Exam in Physics",
+    "title": "World Models' Last Exam in Physics",
+    "first_submitted": "2026-10-06",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Gao, Mingju",
+    "description": "Pairs controlled image-conditioned video tasks with observability screening and task-specific physical measurements across six physical domains, without reference videos.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.08791",
+    "source_url": "https://arxiv.org/abs/2610.08791",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.01052",
+    "name": "DynSC-Eval",
+    "title": "Towards Subject Consistency over Dynamic Subject Sets in Video Generation",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity evaluation",
+    "resource_type": "Evaluator + Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "Zhang, Tongcheng",
+    "description": "DynSC-Eval tracks changing subject sets and diagnoses local continuity and global identity; its signals also guide DiffusionNFT post-training.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.01052",
+    "source_url": "https://arxiv.org/abs/2610.01052",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.01789",
+    "name": "iADD",
+    "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Neupane, Ashok Prasad",
+    "description": "Studies diversity effects of timestep-restricted policy updates and uses incremental Feynman-Kac training to balance reward alignment and diversity.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.01789",
+    "source_url": "https://arxiv.org/abs/2610.01789",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.16632",
+    "name": "REEL",
+    "title": "REEL: Learning to Retrieve, Evaluate, and Evolve Visual Memory for Any Long-Horizon Multi-Shot Video Generation",
+    "first_submitted": "2026-10-12",
+    "primary_relation": "Internal",
+    "theme": "Multi-shot narratives and persistent memory",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Xu, Hang",
+    "description": "Trains a generator-agnostic visual-memory planner through supervised and multi-shot reinforcement learning; REEL-Bench tests identity persistence and intended state changes.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.16632",
+    "source_url": "https://arxiv.org/abs/2610.16632",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.01884",
+    "name": "MemComposer",
+    "title": "Memory-Guided B-Roll Generation from User Video Collections",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "External",
+    "theme": "Reference-conditioned video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Ham, Cusuh",
+    "description": "MemComposer builds entity-centric memory from user footage and retrieves shot-specific references to ground generated B-roll in collection identities, settings and style.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.01884",
+    "source_url": "https://arxiv.org/abs/2610.01884",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.02153",
+    "name": "MosaiChunk",
+    "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Zhang, Yiwen",
+    "description": "Learns a lightweight router over historical spatial-temporal KV entries for fixed-budget memory; RememBench evaluates scene revisits in text- and camera-controlled generation.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.02153",
+    "source_url": "https://arxiv.org/abs/2610.02153",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.06588",
+    "name": "Keepsake",
+    "title": "Keepsake: Selective Spatial Memory for Long-Horizon Video Generation",
+    "first_submitted": "2026-10-05",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Radi, Abdul Mohaimen Al",
+    "description": "Uses a pose-appearance graph to reassess redundant observations and retain distinctive spatial memories under a fixed capacity without retraining the host generator.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.06588",
+    "source_url": "https://arxiv.org/abs/2610.06588",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.26801",
+    "name": "Mise-en-Video",
+    "title": "Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation",
+    "first_submitted": "2026-10-19",
+    "primary_relation": "External",
+    "theme": "Structural and camera control",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Zou, Yingshuang",
+    "description": "Combines per-shot 3D layout guidance with hierarchical attention to jointly support controllable staging and cross-shot narrative consistency.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.26801",
+    "source_url": "https://arxiv.org/abs/2610.26801",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2611.00819",
+    "name": "ODC",
+    "title": "ODC: Orthogonal Drift Correction for Improved Text-to-Image Semantic Alignment at Inference",
+    "first_submitted": "2026-10-31",
+    "primary_relation": "External",
+    "theme": "Compositionality and spatial grounding",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [],
+    "first_author": "Kamali, Kasra",
+    "description": "Diagnoses prompt-image drift from an initial sample and refines text conditioning through orthogonal correction for a second generation pass.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2611.00819",
+    "source_url": "https://arxiv.org/abs/2611.00819",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.01989",
+    "name": "CEASE",
+    "title": "Continual Concept Erasure in Diffusion Models by Suppressing Cross-Edit Interference",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [],
+    "first_author": "Wu, Yongliang",
+    "description": "CEASE constrains closed-form edits using replacement-token invariance and past-update subspaces to limit interference and preserve unrelated generations during continual concept erasure.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.01989",
+    "source_url": "https://arxiv.org/abs/2610.01989",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.32800",
+    "name": "CompMVR",
+    "title": "CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction",
+    "first_submitted": "2026-10-23",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Kim, Dong-hwi",
+    "description": "Jointly restores compressed multiview observations with compression priors and cross-view correspondences to preserve geometry for reconstruction and novel-view synthesis.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.32800",
+    "source_url": "https://arxiv.org/abs/2610.32800",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-04",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
   }
 ]

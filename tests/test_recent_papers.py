@@ -48,6 +48,17 @@ class CatalogTests(unittest.TestCase):
         invalid[0]['first_submitted'] = '2030-01-01'
         self.assertTrue(any('exceeds' in e for e in validate_records(invalid)))
 
+    def test_incremental_verification_dates_are_preserved(self):
+        records = copy.deepcopy(self.records)
+        records[0]['checked_on'] = '2026-09-16'
+        records[1]['checked_on'] = '2026-11-04'
+        self.assertEqual([], validate_records(records))
+
+    def test_verification_cannot_precede_submission(self):
+        records = copy.deepcopy(self.records)
+        records[0]['checked_on'] = '2024-01-01'
+        self.assertTrue(any('precedes' in e for e in validate_records(records)))
+
     def test_paper_identifier_mismatch_is_rejected(self):
         invalid = copy.deepcopy(self.records)
         invalid[0]['paper_url'] = 'https://arxiv.org/abs/0000.00000'

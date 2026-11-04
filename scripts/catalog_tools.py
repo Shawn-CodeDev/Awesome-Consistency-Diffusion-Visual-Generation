@@ -1,4 +1,4 @@
-"""Standard-library utilities for the 2026-09-16 literature update.
+"""Standard-library utilities for incremental literature updates.
 
 No network requests, repository writes, or tracking requests occur on import.
 """
@@ -15,7 +15,7 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
-CUTOFF = "2026-09-16"
+CUTOFF = "2026-11-04"
 REPOSITORY = "Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation"
 REPO_URL = f"https://github.com/{REPOSITORY}"
 UPDATE_MARKER = "<!-- consistency-literature-update: 2026-09-16 -->"
@@ -28,6 +28,7 @@ THEMES = {
         "Compositionality and spatial grounding",
         "Typography and text rendering",
         "Structural and camera control",
+        "Reference-conditioned video generation",
         "Temporally consistent video editing",
         "Editing and reasoning evaluation",
     ),
@@ -108,8 +109,8 @@ def validate_records(records: list[dict]) -> list[str]:
                 errors.append(f"{tag}: invalid {field}")
         if r["first_submitted"][:4] not in {"2025", "2026"}:
             errors.append(f"{tag}: outside the declared first-posted year window")
-        if r["checked_on"] != CUTOFF:
-            errors.append(f"{tag}: inconsistent checked_on")
+        if r["checked_on"] < r["first_submitted"]:
+            errors.append(f"{tag}: checked_on precedes first submission")
         if r["primary_relation"] not in RELATIONS:
             errors.append(f"{tag}: invalid primary relation")
         elif r["theme"] not in THEMES[r["primary_relation"]]:
@@ -242,6 +243,7 @@ def render_evidence_register(records: list[dict]) -> str:
 
 def generated_files(records: list[dict]) -> dict[str, str]:
     return {
+        "RECENT_PAPERS.md": "# Recent papers · 2025–2026\n\n" + render_recent(records),
         "docs/recent-papers.md": "# Recent papers and evidence register\n\n[Return to the survey](../README.md)\n\n" + render_recent(records, "../") + "\n---\n\n" + render_evidence_register(records),
         "resources/recent_papers.csv": render_csv(records),
         "resources/recent_papers.bib": render_bib(records),

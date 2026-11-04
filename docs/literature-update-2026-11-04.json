@@ -1,0 +1,43 @@
+{
+  "snapshot": "2026-11-04",
+  "base_commit": "aa33d7156c5d8f162acd8883ff9201099b07f422",
+  "search_window": [
+    "2026-09-17",
+    "2026-11-04"
+  ],
+  "added_ids": [
+    "2610.25404",
+    "2610.24738",
+    "2610.26711",
+    "2610.08791",
+    "2610.01052",
+    "2610.01789",
+    "2610.16632",
+    "2610.01884",
+    "2610.02153",
+    "2610.06588",
+    "2610.26801",
+    "2611.00819",
+    "2610.01989",
+    "2610.32800"
+  ],
+  "new_papers": 14,
+  "catalog_total": 95,
+  "excluded": [
+    {
+      "id": "2609.36826",
+      "reason": "Task-prediction consensus rather than direct generated-content consistency."
+    }
+  ],
+  "verification": "Primary arXiv abstract and metadata; no full-text or experimental reproduction claim. Search is not exhaustive; prior verification dates preserved.",
+  "publisher_only_additions": [
+    {
+      "name": "AdvDPO",
+      "url": "https://www.mdpi.com/2079-9292/15/21/4927",
+      "published": "2026-10-25",
+      "verification": "Publisher-indexed abstract and metadata",
+      "location": "README normative preference optimization; selected_bibtex.bib"
+    }
+  ],
+  "total_new_papers": 15
+}
