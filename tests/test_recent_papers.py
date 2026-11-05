@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from catalog_tools import (
-    DEFAULT_FIGURES, RECENT_BEGIN, RECENT_END, apply_corrections, collection_count,
+    CUTOFF, DEFAULT_FIGURES, RECENT_BEGIN, RECENT_END, apply_corrections, collection_count,
     detect_existing, discover_presentation, extract_collection, generated_files,
     load_records, relocate_to_docs, render_recent, validate_records, update_existing_readme,
 )
@@ -51,8 +51,17 @@ class CatalogTests(unittest.TestCase):
     def test_incremental_verification_dates_are_preserved(self):
         records = copy.deepcopy(self.records)
         records[0]['checked_on'] = '2026-09-16'
-        records[1]['checked_on'] = '2026-11-04'
+        records[1]['checked_on'] = CUTOFF
         self.assertEqual([], validate_records(records))
+
+    def test_bibliography_uses_current_research_snapshot(self):
+        bibliography = generated_files(self.records)['resources/recent_papers.bib']
+        self.assertIn(f'% Discovery bibliography for the {CUTOFF} research snapshot.', bibliography)
+
+    def test_readme_recent_badge_matches_catalog_count(self):
+        readme = (ROOT / 'README.md').read_text(encoding='utf-8')
+        self.assertIn(f'Recent%20papers-{len(self.records)}-', readme)
+        self.assertIn(f'alt="{len(self.records)} recent papers"', readme)
 
     def test_verification_cannot_precede_submission(self):
         records = copy.deepcopy(self.records)

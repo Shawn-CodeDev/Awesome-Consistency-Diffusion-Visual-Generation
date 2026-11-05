@@ -4,13 +4,23 @@
 
 ## Research snapshot
 
-The **2026-11-04** register contains **95 distinct arXiv papers**: 60 first submitted in 2026 and 35 in 2025. Editorial primary relations are External (35), Internal (30) and Normative (30). The incremental pass adds 14 papers first posted after the previous September 16 snapshot. Earlier entries retain their original checked-on dates; they were not silently re-certified. A method and associated benchmark in one paper count once.
+The **2026-11-05** register contains **168 distinct arXiv papers**: 113 first submitted in 2026 and 55 in 2025. Editorial primary relations are External (50), Internal (66) and Normative (52). This gap-filling pass adds 73 papers to the November 4 register: 53 first posted in 2026 and 20 in 2025. The additions span February 18, 2025 through November 2, 2026; they are not all newly published papers. The 95 earlier records retain their original metadata and checked-on dates; they were not silently re-certified. A method and associated benchmark in one paper count once.
 
 The register covers image and multi-image editing, compositional and spatial grounding, typography, structural and camera control, video editing, subject identity, multi-view geometry, multi-shot narratives, persistent memory, long video, preference learning, safety and concept erasure, capability retention, physics and causal evaluation. Related unified or autoregressive systems are included only for their relevant generation mechanisms or diagnostics; not every entry is claimed to be a pure diffusion model. Consistency refers to generated content, not only fast Consistency Models.
 
 ## November 4 incremental search
 
 The search focused on September 17–November 4, 2026 and covered editing and prompt alignment, persistent identity and video memory, and physical plausibility and reward alignment. Fourteen new arXiv primary-source records were retained after identifier/title checks against the existing catalog and Markdown collection. AdvDPO (Electronics, October 25) is additionally included in the topic-oriented normative methods list and selected bibliography, because the dated catalog schema uses arXiv identifiers. Its title, authors, publication date and scope were checked against the publisher-indexed abstract. This is a curated search, not a claim of exhaustive coverage. The diffusion-video reasoning paper arXiv:2609.36826 was excluded because task-prediction consensus is not a direct fit to generated-content consistency. Optional code links were omitted when not verified. The earlier integration report below describes the historical September pass; current additions are recorded in `literature-update-2026-11-04.json`.
+
+## November 5 gap-filling search
+
+The broader pass revisits 2025–2026 literature rather than restricting discovery to papers posted since the last update. It adds 15 External, 36 Internal and 22 Normative records, covering localized and multi-turn editing, multi-reference and identity preservation, multi-view geometry, long-video and narrative memory, safety alignment, reward modeling and physical/world-state evaluation. [The November 5 report](literature-update-2026-11-05.json) lists every added identifier and the final counts.
+
+All 73 new titles, first-submission dates and first authors were checked against primary arXiv metadata, and each short description was checked against its abstract. Identifiers, normalized full titles and short names were compared with all tracked text catalogs and the recoverable historical ninth additional-paper batch. Older records were preserved. GuardPaint's metadata title has only its missing whitespace restored. Memory Forcing uses its active October 19 version 3; the withdrawn version 2 is recorded as a history caveat. LongVie and LongVie 2 are separate papers, but their shared benchmark is not counted as another paper.
+
+Scope is based on the generated output's agreement target. RobotAPO qualifies because it trains a flow-matching manipulation-video generator for physical consistency, rather than being an action-only robot policy. Learning-to-Memorize is included as related autoregressive context-memory work, and the persistent-identity benchmark compares mixed generator families; neither is labeled a pure diffusion architecture. The metadata records these distinctions. Benchmark and evaluator papers may assess multiple model families. Speed-only consistency distillation and action-policy-only work are not included merely for using the word consistency.
+
+The legacy additional-200 index currently points to two files absent from main: batches 09 and 10. Batch 09 is recoverable from an unmerged historical branch, while no complete batch 10 was found in fetched history and its staged package is truncated. This pass does not silently restore unmerged content, invent missing entries or count those pages as new findings. The available batch pages, rather than the advertised 200 total, define the legacy deduplication evidence.
 
 ## Evidence and limitations
 
@@ -56,7 +66,7 @@ Edit `resources/recent_papers.json`, then run:
 ```bash
 python scripts/render_recent_papers.py --update-readme
 python scripts/validate_recent_papers.py
-python -m unittest discover -s tests -p 'test_recent_papers.py' -v
+python -m unittest discover -s tests -p 'test_*.py' -v
 python scripts/check_resource_table.py
 ```
 

@@ -15,7 +15,7 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
-CUTOFF = "2026-11-04"
+CUTOFF = "2026-11-05"
 REPOSITORY = "Shawn-CodeDev/Awesome-Consistency-Diffusion-Visual-Generation"
 REPO_URL = f"https://github.com/{REPOSITORY}"
 UPDATE_MARKER = "<!-- consistency-literature-update: 2026-09-16 -->"
@@ -149,7 +149,7 @@ def render_recent(records: list[dict], root_prefix: str = "") -> str:
     lines = [
         '<a id="recent-literature"></a>',
         "## Recent literature · 2025–2026", "",
-        f"**{len(records)} distinct papers · {years['2026']} first posted in 2026 · {years['2025']} first posted in 2025**  ",
+        f"**{len(records)} distinct papers · {years['2026']} first posted in 2026 · {years['2025']} first posted in 2025**<br>",
         f"Research snapshot: **{CUTOFF}**. Dates below are first arXiv submission dates, not conference publication dates.", "",
         f"[JSON]({root_prefix}resources/recent_papers.json) · [CSV]({root_prefix}resources/recent_papers.csv) · "
         f"[BibTeX, abbreviated authors]({root_prefix}resources/recent_papers.bib) · "
@@ -193,7 +193,7 @@ def bib_escape(text: str) -> str:
 
 def render_bib(records: list[dict]) -> str:
     lines = [
-        "% Discovery bibliography for the 2026-09-16 update.",
+        f"% Discovery bibliography for the {CUTOFF} research snapshot.",
         "% AUTHOR LISTS ARE ABBREVIATED: first author and others, not complete metadata.",
         "% Replace abbreviated authors with the official export before submitting a manuscript.",
         "% arXiv dates are first-submission dates; proceedings status was not audited.", "",

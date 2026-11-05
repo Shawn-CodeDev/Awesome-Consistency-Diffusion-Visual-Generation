@@ -2367,5 +2367,1828 @@
     "checked_on": "2026-11-04",
     "publication_status": "arXiv record; proceedings status not audited",
     "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.02197",
+    "name": "HiPhy / MultiPhyBench",
+    "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Normative",
+    "theme": "Physics-aware generation",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Kazimi, Tahira",
+    "description": "Combines principle-level temporal rewards with scene-level physical and semantic alignment; introduces multi-principle prompts and MultiPhyBench.",
+    "project_url": "https://hiphy-video.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.02197",
+    "source_url": "https://arxiv.org/abs/2610.02197",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.09454",
+    "name": "RobotAPO / AgiBot-PhysPref",
+    "title": "RobotAPO: Adversarial Physics Preference Optimization for Robotic Manipulation Video Generation",
+    "first_submitted": "2026-10-07",
+    "primary_relation": "Normative",
+    "theme": "Physics-aware generation",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Li, Kerui",
+    "description": "Uses condition-matched physics preferences and adversarial denoising-space counterfactuals to penalize localized interaction failures in manipulation videos.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.09454",
+    "source_url": "https://arxiv.org/abs/2610.09454",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification: flow-matching manipulation-video generation with physical-consistency preferences; not a robot-action-only policy."
+  },
+  {
+    "id": "2610.42002",
+    "name": "GeoFlip",
+    "title": "GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation",
+    "first_submitted": "2026-10-30",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Li, Yuqi",
+    "description": "Uses paired geometric interventions with verified reference events to test whether image-conditioned videos predict correct physical outcomes.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.42002",
+    "source_url": "https://arxiv.org/abs/2610.42002",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.24228",
+    "name": "IMPLICIT-Bench",
+    "title": "IMPLICIT-Bench: Stereotyped Defaults and Prompt Following in Text-to-Image Generation",
+    "first_submitted": "2026-09-21",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Dai, Yue",
+    "description": "Contrasts neutral, stereotypical and counter-stereotypical prompt triplets to separate demographic defaults from explicit instruction following.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.24228",
+    "source_url": "https://arxiv.org/abs/2609.24228",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.27620",
+    "name": "InGuard / RevGen",
+    "title": "InGuard: Towards Generalized Inner Guardrail for Safe Text-to-Image Generation",
+    "first_submitted": "2026-09-23",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Wang, Zeyu",
+    "description": "Combines embedding-level risk grading and steering with intermediate-latent detection; RevGen tests safety and disturbance to benign generations.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.27620",
+    "source_url": "https://arxiv.org/abs/2609.27620",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.39688",
+    "name": "ShieldCLIP / ViSUv2",
+    "title": "ShieldCLIP: Selective Safety Alignment for Harmful Content Mitigation in Multimodal Foundation Models",
+    "first_submitted": "2026-09-30",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Poppi, Tobia",
+    "description": "Uses modality-specific safety labels to redirect unsafe embeddings while anchoring benign representations, including downstream diffusion-image evaluation.",
+    "project_url": "https://aimagelab.github.io/ShieldCLIP/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.39688",
+    "source_url": "https://arxiv.org/abs/2609.39688",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.05908",
+    "name": "In-generation safety RL",
+    "title": "Safe Image Generation via Reinforcement Learning",
+    "first_submitted": "2026-10-05",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Han, Eungyeol",
+    "description": "Detects emerging unsafe signals during denoising and uses reinforcement learning to steer generation while retaining perceptual quality and prompt fidelity.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.05908",
+    "source_url": "https://arxiv.org/abs/2610.05908",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.02300",
+    "name": "CALM",
+    "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method + Evaluation study",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Park, NaHyeon",
+    "description": "Analyzes safety coverage versus benign selectivity and applies prompt-local counterfactual corrections instead of removing one global unsafe subspace.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.02300",
+    "source_url": "https://arxiv.org/abs/2610.02300",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.06503",
+    "name": "Harmful-content moderation audit",
+    "title": "Harmful Content Generation in Text-to-Image Models: Capabilities and Moderation Limitations",
+    "first_submitted": "2026-10-05",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Evaluation study",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [],
+    "first_author": "Giakoumoglou, Paschalis",
+    "description": "Audits harmful generation and moderation gaps across open image models, with human ratings and comparisons of standard versus community-tuned variants.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.06503",
+    "source_url": "https://arxiv.org/abs/2610.06503",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2608.21869",
+    "name": "GuardPaint",
+    "title": "GuardPaint: Speculative Safety Decoding for Text-to-Image Generation",
+    "first_submitted": "2026-08-22",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Dhoot, Shreyash",
+    "description": "Audits intermediate diffusion outputs and selectively inpaints unsafe regions, accepting repairs that improve safety while preserving fidelity and quality.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2608.21869",
+    "source_url": "https://arxiv.org/abs/2608.21869",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy; whitespace restored in the arXiv metadata title for readability."
+  },
+  {
+    "id": "2606.17257",
+    "name": "REINS",
+    "title": "Pulling The REINS: Training-Free Safety Alignment of Video Diffusion Models via Representation Steering",
+    "first_submitted": "2026-06-15",
+    "primary_relation": "Normative",
+    "theme": "Safety, erasure and capability retention",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Kundu, Rohit",
+    "description": "Steers intermediate video-transformer hidden states along a learned safety direction to redirect harmful generations without changing model weights.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2606.17257",
+    "source_url": "https://arxiv.org/abs/2606.17257",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.28058",
+    "name": "cIPO",
+    "title": "Temporal Concentration from Rollout Errors: Implicit Preference Optimization for Text-to-Video Diffusion",
+    "first_submitted": "2026-07-30",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Liu, Henglin",
+    "description": "Derives preferences from real-video reconstruction errors and concentrates updates on high-error temporal segments to reduce flicker and motion artifacts.",
+    "project_url": "https://henglin-liu.github.io/cIPO_vis/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2607.28058",
+    "source_url": "https://arxiv.org/abs/2607.28058",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.03960",
+    "name": "Reward Lightning",
+    "title": "Reward Lightning: Fast Video Generation via Homologous Preference Distillation",
+    "first_submitted": "2026-07-04",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Method + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Cheng, Jiaxiang",
+    "description": "Shares latent representations between reward modeling and adversarial distillation to jointly optimize few-step generation and video preference alignment.",
+    "project_url": "https://reward-lightning.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2607.03960",
+    "source_url": "https://arxiv.org/abs/2607.03960",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.04283",
+    "name": "DM-Align",
+    "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
+    "first_submitted": "2026-09-03",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Lin, Jiuzhou",
+    "description": "Combines distribution-matching distillation gradients with preference-guided gradients derived from paired or group-sampled video generations.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.04283",
+    "source_url": "https://arxiv.org/abs/2609.04283",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.01162",
+    "name": "PhysicsLENS",
+    "title": "PhysicsLENS: Diagnosing Physical Property Blindness in Video Generation Models",
+    "first_submitted": "2026-10-01",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Milkey, Isaiah",
+    "description": "Holds the conditioning frame and task fixed while varying stated physical properties to separate plausible-looking motion from sensitivity to hidden physics.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.01162",
+    "source_url": "https://arxiv.org/abs/2610.01162",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.31429",
+    "name": "PhysTrace / IntPhys2-Timing",
+    "title": "PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models",
+    "first_submitted": "2026-10-22",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Evaluator + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Yoo, Taekoan",
+    "description": "Matches history-conditioned physical expectations to video windows to localize violations; adds timed annotations and probes diffusion or flow reconstruction trajectories.",
+    "project_url": "",
+    "code_url": "https://github.com/PhysTrace/PhysTrace",
+    "paper_url": "https://arxiv.org/abs/2610.31429",
+    "source_url": "https://arxiv.org/abs/2610.31429",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.22363",
+    "name": "Reference-free physical assessment",
+    "title": "Reference-Free Assessment of Physical Consistency in World Model-based Video Generation",
+    "first_submitted": "2026-06-21",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Oh, Yun",
+    "description": "Combines SLAM- and optical-flow-based measures to rank generated robotic videos and localize physical artifacts without reference videos.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2606.22363",
+    "source_url": "https://arxiv.org/abs/2606.22363",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.38377",
+    "name": "PhyProbe",
+    "title": "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+    "first_submitted": "2026-09-29",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Ku, Max",
+    "description": "Calibrates a lightweight scorer over frozen spatio-temporal features using ranking, noisy scalar supervision and anchors for physical-violation evaluation.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.38377",
+    "source_url": "https://arxiv.org/abs/2609.38377",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.17234",
+    "name": "IsoVRBench / IsoVRM",
+    "title": "IsoVRBench: Video Reward Modeling Without Human Feedback",
+    "first_submitted": "2026-10-12",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Benchmark + Evaluator + Dataset + Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Li, Shuyue Stella",
+    "description": "Creates controlled video pairs that isolate one changed property, exposing reward-model blind spots and providing synthetic data for reward and generator training.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.17234",
+    "source_url": "https://arxiv.org/abs/2610.17234",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.12382",
+    "name": "WorldAlign",
+    "title": "WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation",
+    "first_submitted": "2026-10-08",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "He, Jing",
+    "description": "Separates static-region geometric rewards from dynamic-subject checklist rewards to improve 4D coherence without favoring nearly motionless videos.",
+    "project_url": "https://worldalign.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.12382",
+    "source_url": "https://arxiv.org/abs/2610.12382",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2605.07061",
+    "name": "AV-Phys Bench / AV-Phys Agent",
+    "title": "Do Joint Audio-Video Generation Models Understand Physics?",
+    "first_submitted": "2026-05-08",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Video",
+      "Audio"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Cui, Zijun",
+    "description": "Tests visual, audio and cross-modal physical commonsense across steady scenes and transitions, combining rubric judgments with acoustic measurements.",
+    "project_url": "https://zijuncui.com/AV-Phys/",
+    "code_url": "https://github.com/ZijunCui02/AV-Phys",
+    "paper_url": "https://arxiv.org/abs/2605.07061",
+    "source_url": "https://arxiv.org/abs/2605.07061",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.11838",
+    "name": "SG-PVR",
+    "title": "Plan-and-Verify Video Reward Reasoning with Spatio-Temporal Scene Graph Grounding",
+    "first_submitted": "2026-06-10",
+    "primary_relation": "Normative",
+    "theme": "Preference alignment and reward learning",
+    "resource_type": "Evaluator + Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External",
+      "Internal"
+    ],
+    "first_author": "Kim, Hyomin",
+    "description": "Decomposes prompts into claims and grounds reward reasoning in persistent spatio-temporal scene graphs to evaluate and rerank compositional video alignment.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2606.11838",
+    "source_url": "https://arxiv.org/abs/2606.11838",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.19257",
+    "name": "SMART",
+    "title": "Long-horizon Video Generation with Slot Memory Addressed By Region Tokens",
+    "first_submitted": "2026-10-13",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Cetin, Eren",
+    "description": "Uses camera-addressed constant-size slot memory and confidence-conditioned diffusion to recall previously observed scenes when the camera returns.",
+    "project_url": "https://eren-cetin.github.io/SMART/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.19257",
+    "source_url": "https://arxiv.org/abs/2610.19257",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2611.01858",
+    "name": "Learning-to-Memorize",
+    "title": "Learning-to-Memorize: Dynamic Context Management for Long-Horizon Autoregressive Video Generation",
+    "first_submitted": "2026-11-01",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Zhu, Haowei",
+    "description": "Learns frame importance, memory replacement and degradation-aware context handling to retain useful history within a fixed KV-cache budget.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2611.01858",
+    "source_url": "https://arxiv.org/abs/2611.01858",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification: related autoregressive context-memory method for temporal content consistency; not classified as a pure diffusion architecture."
+  },
+  {
+    "id": "2611.02737",
+    "name": "MoviEdit / MoviEdit-Bench",
+    "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+    "first_submitted": "2026-11-02",
+    "primary_relation": "External",
+    "theme": "Temporally consistent video editing",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Lee, Suhyeon",
+    "description": "Builds a globally coherent compressed editing draft before autoregressive refinement, with paired multi-shot editing data and a dedicated evaluation benchmark.",
+    "project_url": "https://multi-shot-edit.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2611.02737",
+    "source_url": "https://arxiv.org/abs/2611.02737",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.02553",
+    "name": "LongLive-RAG",
+    "title": "LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation",
+    "first_submitted": "2026-06-01",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Hu, Qixin",
+    "description": "Retrieves non-local self-generated latent history with temporal-change-aware embeddings to reduce identity drift caused by sliding-window conditioning.",
+    "project_url": "",
+    "code_url": "https://github.com/qixinhu11/LongLive-RAG",
+    "paper_url": "https://arxiv.org/abs/2606.02553",
+    "source_url": "https://arxiv.org/abs/2606.02553",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2601.16296",
+    "name": "Memory-V2V",
+    "title": "Memory-V2V: Memory-Augmented Video-to-Video Diffusion for Consistent Multi-Turn Editing",
+    "first_submitted": "2026-01-22",
+    "primary_relation": "External",
+    "theme": "Temporally consistent video editing",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Lee, Dohun",
+    "description": "Retrieves earlier edits from external memory and integrates them through relevance-aware tokenization and compression to preserve content across editing turns.",
+    "project_url": "https://dohunlee1.github.io/MemoryV2V",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2601.16296",
+    "source_url": "https://arxiv.org/abs/2601.16296",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2506.23729",
+    "name": "Proteus-ID / Proteus-Bench",
+    "title": "Proteus-ID: ID-Consistent and Motion-Coherent Video Customization",
+    "first_submitted": "2025-06-30",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity preservation",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Zhang, Guiyu",
+    "description": "Combines multimodal identity fusion, time-aware identity injection and motion-weighted learning to balance identity fidelity with natural motion.",
+    "project_url": "https://grenoble-zhang.github.io/Proteus-ID/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2506.23729",
+    "source_url": "https://arxiv.org/abs/2506.23729",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2508.03034",
+    "name": "MoCA / CelebIPVid",
+    "title": "MoCA: Identity-Preserving Text-to-Video Generation via Mixture of Cross Attention",
+    "first_submitted": "2025-08-05",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity preservation",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Xie, Qi",
+    "description": "Uses temporally pooled identity features, cross-attention experts and video perceptual supervision to preserve facial identity across frames.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2508.03034",
+    "source_url": "https://arxiv.org/abs/2508.03034",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2508.21058",
+    "name": "Mixture of Contexts",
+    "title": "Mixture of Contexts for Long Video Generation",
+    "first_submitted": "2025-08-28",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Cai, Shengqu",
+    "description": "Learns sparse routing to informative historical chunks while retaining caption and local anchors, supporting identity, action and scene persistence.",
+    "project_url": "https://primecai.github.io/moc/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2508.21058",
+    "source_url": "https://arxiv.org/abs/2508.21058",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2506.03141",
+    "name": "Context as Memory",
+    "title": "Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval",
+    "first_submitted": "2025-06-03",
+    "primary_relation": "Internal",
+    "theme": "Multi-shot narratives and persistent memory",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Yu, Jiwen",
+    "description": "Retrieves historical frames by camera field-of-view overlap and directly concatenates them as context to preserve revisited scene content.",
+    "project_url": "https://context-as-memory.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2506.03141",
+    "source_url": "https://arxiv.org/abs/2506.03141",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2502.12632",
+    "name": "MALT Diffusion",
+    "title": "MALT Diffusion: Memory-Augmented Latent Transformers for Any-Length Video Generation",
+    "first_submitted": "2025-02-18",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Yu, Sihyun",
+    "description": "Encodes prior video segments in recurrent attention memory and trains segment-level autoregression to limit long-horizon quality degradation.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2502.12632",
+    "source_url": "https://arxiv.org/abs/2502.12632",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2512.04519",
+    "name": "VideoSSM",
+    "title": "VideoSSM: Autoregressive Long Video Generation with Hybrid State-Space Memory",
+    "first_submitted": "2025-12-04",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Yu, Yifei",
+    "description": "Combines an evolving state-space global memory with local context windows to preserve scene dynamics and reduce motion drift and repetition.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2512.04519",
+    "source_url": "https://arxiv.org/abs/2512.04519",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2601.03655",
+    "name": "VideoMemory",
+    "title": "VideoMemory: Toward Consistent Video Generation via Memory Integration",
+    "first_submitted": "2026-01-07",
+    "primary_relation": "Internal",
+    "theme": "Multi-shot narratives and persistent memory",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Zhou, Jinsong",
+    "description": "Stores and updates visual-semantic entity states across planned shots to preserve characters, props and backgrounds; evaluates multi-shot persistence.",
+    "project_url": "https://hit-perfect.github.io/VideoMemory/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2601.03655",
+    "source_url": "https://arxiv.org/abs/2601.03655",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2512.03041",
+    "name": "MultiShotMaster",
+    "title": "MultiShotMaster: A Controllable Multi-Shot Video Generation Framework",
+    "first_submitted": "2025-12-02",
+    "primary_relation": "Internal",
+    "theme": "Multi-shot narratives and persistent memory",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Wang, Qinghe",
+    "description": "Uses shot-aware and spatiotemporal RoPE variants to preserve narrative order and bind reference identities and scene controls across shots.",
+    "project_url": "https://qinghew.github.io/MultiShotMaster/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2512.03041",
+    "source_url": "https://arxiv.org/abs/2512.03041",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.22370",
+    "name": "Towards Error-Free Long Video Generation",
+    "title": "Towards Error-Free Long Video Generation",
+    "first_submitted": "2026-06-21",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Chang, Shuning",
+    "description": "Combines intra-clip bidirectional and inter-clip causal attention with constant KV caching and truncation-rectified flow to reduce drift.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2606.22370",
+    "source_url": "https://arxiv.org/abs/2606.22370",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2504.12626",
+    "name": "FramePack",
+    "title": "Frame Context Packing and Drift Prevention in Next-Frame-Prediction Video Diffusion Models",
+    "first_submitted": "2025-04-17",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Zhang, Lvmin",
+    "description": "Packs frame context by importance and studies endpoint anchors, sampling order and discrete history representations for drift prevention.",
+    "project_url": "",
+    "code_url": "https://github.com/lllyasviel/FramePack",
+    "paper_url": "https://arxiv.org/abs/2504.12626",
+    "source_url": "https://arxiv.org/abs/2504.12626",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.13035",
+    "name": "TetherCache",
+    "title": "TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment",
+    "first_submitted": "2026-06-11",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Meng, Yu",
+    "description": "Balances relevant and diverse historical frames within a fixed cache, then aligns recalled token statistics to reduce contamination from drifted context.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2606.13035",
+    "source_url": "https://arxiv.org/abs/2606.13035",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2506.04225",
+    "name": "Voyager",
+    "title": "Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation",
+    "first_submitted": "2025-06-04",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Video",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Huang, Tianyu",
+    "description": "Jointly generates aligned RGB and depth while maintaining a culled world cache for camera-controlled, geometrically coherent scene exploration.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2506.04225",
+    "source_url": "https://arxiv.org/abs/2506.04225",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2605.31033",
+    "name": "SlotMemory",
+    "title": "SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation",
+    "first_submitted": "2026-05-29",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Dou, Weijia",
+    "description": "Indexes original transformer KV tokens through reusable semantic slots to preserve recurring entities and support prompt-aware long-range retrieval.",
+    "project_url": "https://tj12323.github.io/SlotMemory/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2605.31033",
+    "source_url": "https://arxiv.org/abs/2605.31033",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2611.00937",
+    "name": "Commit Forcing",
+    "title": "What Helps Denoising Can Hurt Memory: Rethinking History in Long Video Generation",
+    "first_submitted": "2026-10-31",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method + Analysis",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Jing, Yubin",
+    "description": "Separates denoising context from KV-cache committing context and restricts committing to a preceding-block chain to reduce subject and scene drift.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2611.00937",
+    "source_url": "https://arxiv.org/abs/2611.00937",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.11756",
+    "name": "Memory Forcing",
+    "title": "Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation",
+    "first_submitted": "2026-10-08",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Zhang, Jiaming",
+    "description": "Partitions fixed-capacity memory into sink, archive and working banks, with bank-aware positional encoding to retain intermediate events and returning subjects.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.11756",
+    "source_url": "https://arxiv.org/abs/2610.11756",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record, active v3 (2026-10-19); v2 was withdrawn; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2512.14699",
+    "name": "MemFlow",
+    "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives",
+    "first_submitted": "2025-12-16",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Ji, Sihui",
+    "description": "Updates a bounded memory using prompt-conditioned retrieval and sparsely activates relevant historical tokens for coherent interactive long-video narratives.",
+    "project_url": "https://sihuiji.github.io/MemFlow.github.io/",
+    "code_url": "https://github.com/KlingAIResearch/MemFlow",
+    "paper_url": "https://arxiv.org/abs/2512.14699",
+    "source_url": "https://arxiv.org/abs/2512.14699",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.00793",
+    "name": "MBench",
+    "title": "MBench: A Comprehensive Benchmark on Memory Capability for Video World Models",
+    "first_submitted": "2026-05-30",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "Zhang, Shengjun",
+    "description": "Measures long-term entity, environment and causal memory using real-video conditions, rule-based metrics and VLM evaluation across twelve dimensions.",
+    "project_url": "https://peanutup.github.io/MBench-project/",
+    "code_url": "https://github.com/study-overflow/MBench",
+    "paper_url": "https://arxiv.org/abs/2606.00793",
+    "source_url": "https://arxiv.org/abs/2606.00793",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2605.10434",
+    "name": "WorldReasonBench / WorldRewardBench",
+    "title": "WorldReasonBench: Human-Aligned Stress Testing of Video Generators as Future World-State Predictors",
+    "first_submitted": "2026-05-11",
+    "primary_relation": "Normative",
+    "theme": "Physical and causal evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "Internal",
+      "External"
+    ],
+    "first_author": "Wu, Keming",
+    "description": "Tests future-state evolution from initial conditions and actions with process-aware reasoning checks, plus expert preference pairs for world-reasoning rewards.",
+    "project_url": "https://unix-ai-lab.github.io/WorldReasonBench/",
+    "code_url": "https://github.com/UniX-AI-Lab/WorldReasonBench/",
+    "paper_url": "https://arxiv.org/abs/2605.10434",
+    "source_url": "https://arxiv.org/abs/2605.10434",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2508.03694",
+    "name": "LongVie / LongVGenBench",
+    "title": "LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation",
+    "first_submitted": "2025-08-05",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Gao, Jianxiong",
+    "description": "Aligns clip noise and control normalization, combining dense and sparse guidance with degradation-aware training for temporally coherent controlled video.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2508.03694",
+    "source_url": "https://arxiv.org/abs/2508.03694",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2512.13604",
+    "name": "LongVie 2",
+    "title": "LongVie 2: Multimodal Controllable Ultra-Long Video World Model",
+    "first_submitted": "2025-12-15",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Gao, Jianxiong",
+    "description": "Combines dense-sparse controls, degraded-input training and adjacent-clip historical context to retain visual quality and temporal coherence over long rollouts.",
+    "project_url": "https://vchitect.github.io/LongVie2-project/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2512.13604",
+    "source_url": "https://arxiv.org/abs/2512.13604",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2603.17117",
+    "name": "MosaicMem",
+    "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
+    "first_submitted": "2026-03-17",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Video",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Yu, Wei",
+    "description": "Lifts image patches into 3D for targeted retrieval and composes aligned observations in queried views while permitting dynamic scene changes.",
+    "project_url": "https://mosaicmem.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2603.17117",
+    "source_url": "https://arxiv.org/abs/2603.17117",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.11836",
+    "name": "Cycle-World",
+    "title": "Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency",
+    "first_submitted": "2026-07-13",
+    "primary_relation": "Internal",
+    "theme": "Long-horizon video generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [],
+    "first_author": "Su, Zihan",
+    "description": "Trains with reverse-prediction cycle consistency and applies a reverse-model latent corrector at inference to suppress accumulated rollout errors.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2607.11836",
+    "source_url": "https://arxiv.org/abs/2607.11836",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2508.11484",
+    "name": "CineTrans / Cine250K",
+    "title": "CineTrans: Learning to Generate Videos with Cinematic Transitions via Masked Diffusion Models",
+    "first_submitted": "2025-08-15",
+    "primary_relation": "Internal",
+    "theme": "Multi-shot narratives and persistent memory",
+    "resource_type": "Method + Dataset + Evaluator",
+    "modalities": [
+      "Video"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Wu, Xiaoxue",
+    "description": "Uses shot-boundary-aware attention masks and annotated multi-shot training data to control cinematic transitions while retaining temporal coherence.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2508.11484",
+    "source_url": "https://arxiv.org/abs/2508.11484",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.10811",
+    "name": "Overpainting",
+    "title": "Overpainting: Localized Context-aware Diffusion Image Editing",
+    "first_submitted": "2026-09-09",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Sartor, Sam",
+    "description": "Uses trimaps and joint-attention adaptation to distinguish required, optional and forbidden edit regions while preserving source context.",
+    "project_url": "https://overpainting.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.10811",
+    "source_url": "https://arxiv.org/abs/2609.10811",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2609.04151",
+    "name": "Persistent identity benchmark",
+    "title": "Persistent Identity Preservation in Generative Image Models: A Benchmark and Evaluation System",
+    "first_submitted": "2026-09-03",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity evaluation",
+    "resource_type": "Benchmark + Evaluator",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Ren, Mengwei",
+    "description": "Compares context-based, parameter-based and persistent identity representations across generation, iterative editing, restoration and multi-subject composition.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2609.04151",
+    "source_url": "https://arxiv.org/abs/2609.04151",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification: cross-model identity benchmark relevant to diffusion-based personalization; evaluated systems are not all diffusion models."
+  },
+  {
+    "id": "2608.20336",
+    "name": "WithEveryone",
+    "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+    "first_submitted": "2026-08-20",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity preservation",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Xu, Hengyuan",
+    "description": "Uses addressed identity tokens, explicit identity-layout planning and region-grounded identity supervision to reduce identity mixing in group generation.",
+    "project_url": "https://doby-xu.github.io/WithEveryone/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2608.20336",
+    "source_url": "https://arxiv.org/abs/2608.20336",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.25078",
+    "name": "Diff-ID",
+    "title": "Diff-ID: Identity Consistent Facial Image Generation and Morphing via Diffusion Models",
+    "first_submitted": "2026-07-27",
+    "primary_relation": "Internal",
+    "theme": "Subject and identity preservation",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Rizwan, Taimoor",
+    "description": "Combines ArcFace and CLIP conditioning with timestep-weighted identity supervision, evaluating facial identity fidelity jointly with perceptual realism.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2607.25078",
+    "source_url": "https://arxiv.org/abs/2607.25078",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2511.22228",
+    "name": "3DC-MVE",
+    "title": "3D-Consistent Multi-View Editing by Correspondence Guidance",
+    "first_submitted": "2025-11-27",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Bengtson, Josef",
+    "description": "Guides diffusion or flow editing with a correspondence-based consistency loss to preserve geometric and photometric agreement across scene views.",
+    "project_url": "https://3d-consistent-editing.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2511.22228",
+    "source_url": "https://arxiv.org/abs/2511.22228",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2512.14099",
+    "name": "ViewMask-1-to-3",
+    "title": "ViewMask-1-to-3: Multi-View Consistent Image Generation via Multimodal Discrete Diffusion Models",
+    "first_submitted": "2025-12-16",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Zhu, Ruishu",
+    "description": "Models multiple views as visual-token sequences and uses joint masked-token diffusion to encourage cross-view agreement without explicit geometric priors.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2512.14099",
+    "source_url": "https://arxiv.org/abs/2512.14099",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2510.13702",
+    "name": "MVCustom",
+    "title": "MVCustom: Multi-View Customized Diffusion via Geometric Latent Rendering and Completion",
+    "first_submitted": "2025-10-15",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Shin, Minjung",
+    "description": "Combines subject-specific feature fields, depth-aware rendering and latent completion to jointly control camera pose, appearance customization and cross-view geometry.",
+    "project_url": "https://minjung-s.github.io/mvcustom",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2510.13702",
+    "source_url": "https://arxiv.org/abs/2510.13702",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2508.16577",
+    "name": "MV-RAG",
+    "title": "MV-RAG: Retrieval Augmented Multiview Diffusion",
+    "first_submitted": "2025-08-22",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Dayani, Yosef",
+    "description": "Conditions multiview diffusion on retrieved images and trains held-out-view prediction to improve 3D consistency and prompt fidelity for rare concepts.",
+    "project_url": "https://yosefdayani.github.io/MV-RAG/",
+    "code_url": "https://github.com/yosefdayani/MV-RAG",
+    "paper_url": "https://arxiv.org/abs/2508.16577",
+    "source_url": "https://arxiv.org/abs/2508.16577",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2606.11751",
+    "name": "AnchorEdit",
+    "title": "AnchorEdit: Maintaining Temporal Consistency in Multi-turn Image Editing via Causal Memory",
+    "first_submitted": "2026-06-10",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Xu, Hang",
+    "description": "Uses autoregressive diffusion, self-rollout training and persistent source memory to reduce identity drift and accumulated errors across editing turns.",
+    "project_url": "",
+    "code_url": "https://github.com/xuhang07/AnchorEdit",
+    "paper_url": "https://arxiv.org/abs/2606.11751",
+    "source_url": "https://arxiv.org/abs/2606.11751",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.35684",
+    "name": "OmniShowcase",
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "first_submitted": "2026-10-26",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Video",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Ahn, Junyeong",
+    "description": "Conditions video diffusion on reconstructed surface-normal turntables and geometry-consistent training videos; ShowcaseBench evaluates identity and 3D consistency across camera paths.",
+    "project_url": "https://justin4ai.github.io/OmniShowcase/",
+    "code_url": "https://github.com/justin4ai/OmniShowcase",
+    "paper_url": "https://arxiv.org/abs/2610.35684",
+    "source_url": "https://arxiv.org/abs/2610.35684",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2511.20614",
+    "name": "ImageCritic",
+    "title": "The Consistency Critic: Correcting Inconsistencies in Generated Images via Reference-Guided Attentive Alignment",
+    "first_submitted": "2025-11-25",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method + Dataset",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Ouyang, Ziheng",
+    "description": "Uses reference-guided post-editing, a detail encoder and attention-alignment supervision to correct fine-grained subject inconsistencies in generated images.",
+    "project_url": "https://ouyangziheng.github.io/ImageCritic-Page/",
+    "code_url": "https://github.com/HVision-NKU/ImageCritic",
+    "paper_url": "https://arxiv.org/abs/2511.20614",
+    "source_url": "https://arxiv.org/abs/2511.20614",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2510.14981",
+    "name": "Coupled Diffusion Sampling",
+    "title": "Coupled Diffusion Sampling for Training-Free Multi-View Image Editing",
+    "first_submitted": "2025-10-16",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Alzayer, Hadi",
+    "description": "Couples trajectories from pretrained image-editing and multiview distributions to regularize cross-view edits without explicit 3D optimization.",
+    "project_url": "https://coupled-diffusion.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2510.14981",
+    "source_url": "https://arxiv.org/abs/2510.14981",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2608.18063",
+    "name": "EditBridge",
+    "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+    "first_submitted": "2026-08-18",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Song, Jiayi",
+    "description": "Refines low-resolution edits through a source-conditioned diffusion bridge and correspondence-guided sparse attention to preserve authentic high-resolution details.",
+    "project_url": "https://editbridge.github.io/",
+    "code_url": "https://github.com/songyangyifei/editbridge",
+    "paper_url": "https://arxiv.org/abs/2608.18063",
+    "source_url": "https://arxiv.org/abs/2608.18063",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2604.11797",
+    "name": "SyncFix",
+    "title": "SyncFix: Fixing 3D Reconstructions via Multi-View Synchronization",
+    "first_submitted": "2026-04-13",
+    "primary_relation": "Internal",
+    "theme": "Multi-view and geometric consistency",
+    "resource_type": "Method",
+    "modalities": [
+      "Image",
+      "3D"
+    ],
+    "secondary_relations": [
+      "External"
+    ],
+    "first_author": "Li, Deming",
+    "description": "Learns a joint latent bridge across reconstructed views to synchronize refinement and reduce semantic and geometric inconsistency, with optional sparse references.",
+    "project_url": "https://syncfix.github.io/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2604.11797",
+    "source_url": "https://arxiv.org/abs/2604.11797",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.07051",
+    "name": "ReSpec / OCCUR-Bench",
+    "title": "Making Implicit Preservation Intent Explicit in Conversational Image Editing",
+    "first_submitted": "2026-07-08",
+    "primary_relation": "External",
+    "theme": "Editing and reasoning evaluation",
+    "resource_type": "Method + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Han, Soomin",
+    "description": "Tests restoration of temporarily occluded but unchanged content and uses historical references with restoration-aware instructions to preserve editing history.",
+    "project_url": "",
+    "code_url": "https://github.com/anonymous745961852-cloud/implicit-preservation-editing",
+    "paper_url": "https://arxiv.org/abs/2607.07051",
+    "source_url": "https://arxiv.org/abs/2607.07051",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2602.14186",
+    "name": "UniRef-Image-Edit",
+    "title": "UniRef-Image-Edit: Towards Scalable and Consistent Multi-Reference Image Editing",
+    "first_submitted": "2026-02-15",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal",
+      "Normative"
+    ],
+    "first_author": "Wei, Hongyang",
+    "description": "Serializes reference latents under a shared pixel budget and applies multi-source policy optimization to reconcile cross-reference constraints during image editing.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2602.14186",
+    "source_url": "https://arxiv.org/abs/2602.14186",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2605.16951",
+    "name": "Edit-GRPO",
+    "title": "Edit-GRPO: A Locality-Preserving Policy Optimization Framework for Image Editing",
+    "first_submitted": "2026-05-16",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "Xu, Shaodong",
+    "description": "Decouples region-specific editing and preservation rewards to reduce unintended changes outside target regions during diffusion-editor post-training.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2605.16951",
+    "source_url": "https://arxiv.org/abs/2605.16951",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.22328",
+    "name": "ACEdit",
+    "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+    "first_submitted": "2026-10-15",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Dorfman, Sara",
+    "description": "Trains on self-generated edit trajectories while anchoring a distillation teacher to the clean source and cumulative instructions to reduce cross-turn drift.",
+    "project_url": "https://saradorfman1.github.io/ACEdit/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.22328",
+    "source_url": "https://arxiv.org/abs/2610.22328",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.06021",
+    "name": "ARRO",
+    "title": "Scalable Minimal-Change Learning for Controllable Image Editing",
+    "first_submitted": "2026-10-05",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "Chen, Shuo",
+    "description": "Uses an agentic vision-language reward audit of missed requests and unintended changes to optimize source preservation without per-instruction human labels.",
+    "project_url": "",
+    "code_url": "https://github.com/Showwwwwwwww/ARRO",
+    "paper_url": "https://arxiv.org/abs/2610.06021",
+    "source_url": "https://arxiv.org/abs/2610.06021",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.12229",
+    "name": "VibeEdit",
+    "title": "VibeEdit: Image Editing with Canvas Instructions",
+    "first_submitted": "2026-10-08",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method + Dataset + Benchmark",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Normative"
+    ],
+    "first_author": "Zhao, Jinjing",
+    "description": "Separately conditions on source images and spatial canvas instructions, with region-weighted training and rubric-guided rewards for target selection and unedited-region preservation.",
+    "project_url": "https://zhaojingjing713.github.io/VibeEdit/",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.12229",
+    "source_url": "https://arxiv.org/abs/2610.12229",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2607.04691",
+    "name": "From Open Loop to Closed Loop",
+    "title": "From Open Loop to Closed Loop: A Test-Time Iterative Optimization Framework for Reference-Consistent Image Generation",
+    "first_submitted": "2026-07-06",
+    "primary_relation": "External",
+    "theme": "Structural and camera control",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Zhao, Baixuan",
+    "description": "Uses test-time feedback and a modified PID controller to refine latent control signals for reference fidelity in identity-, pose- and depth-conditioned generation.",
+    "project_url": "",
+    "code_url": "https://github.com/zzdrill/From-Open-Loop-to-Closed-Loop",
+    "paper_url": "https://arxiv.org/abs/2607.04691",
+    "source_url": "https://arxiv.org/abs/2607.04691",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2510.24657",
+    "name": "GRAG",
+    "title": "Group Relative Attention Guidance for Image Editing",
+    "first_submitted": "2025-10-28",
+    "primary_relation": "External",
+    "theme": "Image editing and in-context generation",
+    "resource_type": "Method",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Zhang, Xuanpu",
+    "description": "Reweights content-specific attention signals relative to layer-dependent biases to balance source-image fidelity and instruction strength without fine-tuning.",
+    "project_url": "https://little-misfit.github.io/GRAG-Image-Editing/",
+    "code_url": "https://github.com/little-misfit/GRAG-Image-Editing",
+    "paper_url": "https://arxiv.org/abs/2510.24657",
+    "source_url": "https://arxiv.org/abs/2510.24657",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
+  },
+  {
+    "id": "2610.39664",
+    "name": "EditAgent",
+    "title": "EditAgent: Rethinking Agentic Image Editing",
+    "first_submitted": "2026-10-29",
+    "primary_relation": "External",
+    "theme": "Editing and reasoning evaluation",
+    "resource_type": "Method + Benchmark + Evaluator",
+    "modalities": [
+      "Image"
+    ],
+    "secondary_relations": [
+      "Internal"
+    ],
+    "first_author": "Xu, Haiyang",
+    "description": "Routes edits across general and specialized tools and uses verification records to compare parallel candidates for complex instruction following and source preservation.",
+    "project_url": "",
+    "code_url": "",
+    "paper_url": "https://arxiv.org/abs/2610.39664",
+    "source_url": "https://arxiv.org/abs/2610.39664",
+    "verification_level": "primary-abstract-metadata",
+    "checked_on": "2026-11-05",
+    "publication_status": "arXiv record; proceedings status not audited",
+    "scope_basis": "Editorial classification under the survey taxonomy"
   }
 ]

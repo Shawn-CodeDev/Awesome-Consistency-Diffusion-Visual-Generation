@@ -1,0 +1,145 @@
+{
+  "snapshot": "2026-11-05",
+  "base_commit": "1dd2d9d0c2da0909c7a4429abb332b5e8d295732",
+  "search_window": [
+    "2025-01-01",
+    "2026-11-05"
+  ],
+  "retained_first_submission_range": [
+    "2025-02-18",
+    "2026-11-02"
+  ],
+  "added_ids": [
+    "2610.02197",
+    "2610.09454",
+    "2610.42002",
+    "2609.24228",
+    "2609.27620",
+    "2609.39688",
+    "2610.05908",
+    "2610.02300",
+    "2610.06503",
+    "2608.21869",
+    "2606.17257",
+    "2607.28058",
+    "2607.03960",
+    "2609.04283",
+    "2610.01162",
+    "2610.31429",
+    "2606.22363",
+    "2609.38377",
+    "2610.17234",
+    "2610.12382",
+    "2605.07061",
+    "2606.11838",
+    "2610.19257",
+    "2611.01858",
+    "2611.02737",
+    "2606.02553",
+    "2601.16296",
+    "2506.23729",
+    "2508.03034",
+    "2508.21058",
+    "2506.03141",
+    "2502.12632",
+    "2512.04519",
+    "2601.03655",
+    "2512.03041",
+    "2606.22370",
+    "2504.12626",
+    "2606.13035",
+    "2506.04225",
+    "2605.31033",
+    "2611.00937",
+    "2610.11756",
+    "2512.14699",
+    "2606.00793",
+    "2605.10434",
+    "2508.03694",
+    "2512.13604",
+    "2603.17117",
+    "2607.11836",
+    "2508.11484",
+    "2609.10811",
+    "2609.04151",
+    "2608.20336",
+    "2607.25078",
+    "2511.22228",
+    "2512.14099",
+    "2510.13702",
+    "2508.16577",
+    "2606.11751",
+    "2610.35684",
+    "2511.20614",
+    "2510.14981",
+    "2608.18063",
+    "2604.11797",
+    "2607.07051",
+    "2602.14186",
+    "2605.16951",
+    "2610.22328",
+    "2610.06021",
+    "2610.12229",
+    "2607.04691",
+    "2510.24657",
+    "2610.39664"
+  ],
+  "new_papers": 73,
+  "new_by_primary_relation": {
+    "Normative": 22,
+    "Internal": 36,
+    "External": 15
+  },
+  "new_by_first_submission_year": {
+    "2026": 53,
+    "2025": 20
+  },
+  "catalog_total": 168,
+  "catalog_by_primary_relation": {
+    "External": 50,
+    "Internal": 66,
+    "Normative": 52
+  },
+  "catalog_by_first_submission_year": {
+    "2025": 55,
+    "2026": 113
+  },
+  "previous_records_preserved": 95,
+  "deduplication": "Checked arXiv identifiers, normalized full titles and short-name matches across the recent register, all tracked textual catalog resources, available additional-paper batches 01-08 and recovered historical batch 09. Short-name collisions were manually reviewed; no candidate duplicates retained.",
+  "verification": "All added titles, first-submission dates, first authors and summaries checked against primary arXiv abstract/metadata records; optional links are author-provided discovery links. No full-text audit, empirical reproduction or exhaustive venue/link-availability claim. Earlier checked-on dates preserved.",
+  "selection_scope": "Generated-content consistency: editing preservation, identity, multi-view geometry, temporal memory, world-state evaluation, preferences and safety. Related autoregressive systems and cross-model benchmarks are contextual; robot-action-only diffusion policies and consistency-distillation-only speed work are outside this search.",
+  "metadata_notes": [
+    {
+      "id": "2608.21869",
+      "note": "Restored whitespace in the primary metadata title for readability; wording unchanged."
+    },
+    {
+      "id": "2610.11756",
+      "note": "Current v3 (2026-10-19) is active; v2 was withdrawn. First-submission date remains 2026-10-08."
+    },
+    {
+      "ids": [
+        "2508.03694",
+        "2512.13604"
+      ],
+      "note": "LongVie and LongVie 2 are distinct primary papers. Their shared LongVGenBench is not counted as an extra paper."
+    },
+    {
+      "id": "2611.01858",
+      "note": "Included for autoregressive temporal-memory management, without asserting a pure diffusion architecture."
+    },
+    {
+      "id": "2609.04151",
+      "note": "Cross-model identity diagnostic; evaluated generators are not all diffusion-based."
+    }
+  ],
+  "preexisting_catalog_gaps": {
+    "missing_from_main": [
+      "docs/additional-papers-200/part-09.md",
+      "docs/additional-papers-200/part-10.md"
+    ],
+    "part_09_recoverable_commit": "82f9a3237471b8c21f7513d9fa0cd0d6dcfbbddb",
+    "part_10": "No complete file found in fetched branch history; staged package is explicitly truncated.",
+    "action": "Historical collection and advertised expansion counts left unchanged; missing batches not silently reconstructed or counted as new research."
+  }
+}
